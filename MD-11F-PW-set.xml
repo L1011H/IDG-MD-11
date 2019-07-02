@@ -32,6 +32,11 @@
 		</systems>
     </sim>
 	
+	<MCDUC n="0">
+		<eng>PW4460</eng>
+		<type>MD-11 DEF AIL</type>
+	</MCDUC>
+	
 	<options n="0">
 		<eng>PW</eng>
 	</options>
