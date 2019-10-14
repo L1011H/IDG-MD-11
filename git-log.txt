@@ -1,0 +1,3771 @@
+commit 573eeba16d02723a0ef19581de7c730360c940dd
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jul 22 13:23:39 2019 -0400
+
+    System: Fuel system schedule now includes Tank 2 feeding 1 and 3 until equal
+
+commit 0b433644e6120f81e26be286fcea1e746c6098e7
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jul 18 16:06:41 2019 -0400
+
+    Sim: Who removed my 0s?
+
+commit 3c67057fe41146c095bf0362089582cae9b7471b
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jul 18 16:01:37 2019 -0400
+
+    Sim: who are you
+
+commit f84131ac39338645ae69f17cf1cffee19625ecd9
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jul 17 01:05:21 2019 -0400
+
+    Sim: Remove nonesense, how structure can have steer angle or brake group?
+
+commit d2eab275d8c361bd7ea7b653aef5f898411fea7b
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jul 16 23:15:31 2019 -0400
+
+    Sim: Fix some wtf stuff
+
+commit eaa7aa319b66395abcebfefd389a723fa58b01ac
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jul 15 19:01:53 2019 -0400
+
+    Sim: revision
+
+commit ef40fd5903925df4525575afff3af8ca7fa8bc4e
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jul 7 11:18:29 2019 -0400
+
+    Aero: Correct outer aileron Cl moment
+
+commit bffe395ac0987cce2e1b1b0a27a156d71ba54722
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jul 6 22:58:09 2019 -0400
+
+    System: Much more fuel system corrections, and functionality fixes
+
+commit 271d7c5f662781fb57df4e71915a77f4dd8955ba
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jul 6 21:09:17 2019 -0400
+
+    System: Add some Fuel FSC logic, bugfix the system a bit, more fixes to various stuff
+
+commit f35cbc65275773fff31aed6ee652b10f487cd04b
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jul 5 16:08:15 2019 -0400
+
+    System: Fuel system now has scheduling for lower and upper aux tanks, logic fixed
+
+commit f87cb6d5d1643688a777c9d0501a664a2cb3285a
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jul 5 12:37:44 2019 -0400
+
+    System: Fuel system corrections, add xfeed, VC: Fix lighting and overhead LCD panel
+
+commit 77c9a4bbea1d063c367851f5aaa84e428beccad2
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jul 5 00:55:32 2019 -0400
+
+    System: Start new fuel system. VC: fix overheat fuel indicators
+    
+    Many things don't work yet -- so do not even attempt to fly this yet....
+    or you will be dissapointed!!!!!!!!!!!!!!!!!!!!!!!!!!
+    
+    What works:
+    - Inner tanks feeding engines/apu
+    - Outer xfrs to inners properly as per FCOM
+    - Pumps
+    - Some switches/lights
+
+commit f6941499313049fc8b9c35917ca4e9d560c78617
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jun 24 14:02:29 2019 -0400
+
+    Sim: Remove the non-existant laptop mode
+
+commit eabbeaa5baa4957ec1bca81fadefe4ec0bebeebc
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jun 24 13:58:16 2019 -0400
+
+    Sim: Add Shift-Click functionality to FCP
+
+commit 5d138370f98e32b99815aacf0816170dc7ef81e5
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jun 10 22:56:03 2019 -0400
+
+    Sim: Notice
+
+commit 59b0ecb0b9abe497c8683391cea824d840bcad1e
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jun 7 20:26:52 2019 -0400
+
+    Sim: Revision 820
+
+commit 66ff50d3d704f2de2e3806eb86b261eafe98520c
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jun 6 23:56:45 2019 -0400
+
+    Sim: Apparently, outer ailerons don't droop
+
+commit 61749b16a6d7f5d48e20128159126969ef7f5514
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jun 6 23:47:07 2019 -0400
+
+    System: Fix a typo causing ESC to not set Bleed switches
+
+commit 0c58a8105c84297dce88207a9c86b76501876c4d
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jun 6 23:30:38 2019 -0400
+
+    System: Add more ESC logic in pneumatics system, ISOLs now fully auto, pack 2 fixed
+
+commit 267b7de969b168493ff7cefe9724c8714fba276c
+Merge: 7bfd42f 11212e4
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri May 31 18:30:47 2019 -0400
+
+    Merge branch 'master' into DetailedSystems
+
+commit 11212e4396d59478e2938469e6df524a9314938c
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri May 31 18:30:31 2019 -0400
+
+    System: Fix SERVERE bugs in ignition system -- sry!
+
+commit 7bfd42fe20d9960c9c63d76372fcf4efdf6f2be9
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri May 31 18:27:37 2019 -0400
+
+    System: Add ground air
+
+commit 8f703b9a150e7a74a0744ad433f8040729f780bd
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 26 16:57:00 2019 -0400
+
+    System: More pneumatics work
+
+commit c2b80523321ac770bb922ebb0f11a10c97820a12
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 26 11:43:09 2019 -0400
+
+    System: Add pneumatics and some other fixes
+
+commit e07577e7792547bdcc0cf0984d6326142efac2a9
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue May 14 19:26:15 2019 -0400
+
+    Sim: More JSBsim XML Cleanup
+
+commit eaee018825f5da53d4f4f8a4d676805895fdb190
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue May 14 16:59:43 2019 -0400
+
+    Sim: More JSBsim XML Cleanup
+
+commit 3699d25cc235c6c55b25b19a9ca28822158adec7
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue May 14 16:58:19 2019 -0400
+
+    Sim: JSBsim XML Cleanup
+
+commit 88c47c24fad0837046fe03be42b35d4e96a90e6f
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 13 18:00:12 2019 -0400
+
+    Aero: Formatting
+
+commit 87bcb25fa71ecb0f3ac6587eb05c0bf1a518ded1
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 13 16:37:10 2019 -0400
+
+    Aero: Excess 0s removed -- sry 0 fans
+
+commit 173538968368c3dd54f967c9c7afb8d6a710926a
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 12 19:53:18 2019 -0400
+
+    Sim: Sim: idk
+
+commit dcd95b6c9b81bfeafbf84685ccb91fd1c8d655f7
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 12 17:58:57 2019 -0400
+
+    System: Hydraulic Leaks simulated, SYS 3 Isol fixed, Catstrophic Aft Failure added
+
+commit b54c70740de2f9afe973fd4e45d4f92a109befd7
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 12 10:32:17 2019 -0400
+
+    Aero: don't be so alone independantVar :)
+
+commit 741b3fc7dd37c336c1d14fa2cca149d256f03ffa
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu May 9 16:37:18 2019 -0400
+
+    Sim: JSBsim cleanup, fix some bad metrics
+
+commit e91e0afe28cfdbc5385d59012da3dce31a18260b
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed May 8 17:35:19 2019 -0400
+
+    Sim: Rename to 'IDG-MD-11'
+
+commit e1a350c6d6e8e2f79dbf17804d5356922505ed08
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed May 8 15:44:56 2019 -0400
+
+    Sim: Some minor fixes in libraries and gear tilt, renaming
+
+commit d91316397fd3144e3a11c712ec1e33938c0842f0
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue May 7 21:19:49 2019 -0400
+
+    Aero: independantVar, you are only, no?
+
+commit 7c3e7fd158a9a065a46b9bc41d567c05ecc318c1
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 6 17:28:41 2019 -0400
+
+    VC: Animate Baro and Mins knobs properly
+
+commit d98665a0936a73d6d7088e100845ab27995a75fb
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 6 17:10:26 2019 -0400
+
+    VC: Dial a Flap knob added
+
+commit 4b356e46fa64fc5cea479a1bf9215c1855a041f3
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 6 00:13:37 2019 -0400
+
+    VC: FCP Corrected
+
+commit 17a986bb2256a7cc18ef721b9c59791240c857b3
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 6 00:02:41 2019 -0400
+
+    VC: FCP Improved
+
+commit 0f581baac4830cfbc15dd1e31cff28bef40a6b32
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 5 23:09:07 2019 -0400
+
+    Sim: More integrated systems refactoring, property tree setup implemented
+
+commit cc0e9ac3790e40f215825b863a5a72ea1e68bb76
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 5 17:02:44 2019 -0400
+
+    Sim: Refactor spoilers/flaps input, Control: Fixes to LSAS, FCC, and more, System: Misc fixes
+
+commit f63c75b641e60232eaa9dbf372907ca2b55f56b5
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat May 4 12:25:28 2019 -0400
+
+    Sim: Mouse Yoke fixed
+
+commit 350828c057c4bb81d6f7ae600deb3b8175a03479
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu May 2 14:48:45 2019 -0400
+
+    Control: Fix mistakes with AFS pitch, System: Fix FADEC bug, Sim: Rename tanks properly
+
+commit 6ef50b724e010b6566061d33f70ed285316793d2
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Apr 30 14:39:19 2019 -0400
+
+    Actually, N272WA is Pratts, 4460s
+    
+    This reverts commit 658fa5f990c0eb8b88d89cffffa461705148ef76.
+
+commit add00ad58a8b0d2f0f3a2cef03239c004e8fbc26
+Merge: 658fa5f c960558
+Author: legoboyvdlp R <legoboyvdlp@gmail.com>
+Date:   Tue Apr 30 14:53:37 2019 +0100
+
+    Merge branch 'master' of https://github.com/it0uchpods/IDG-MD-11X
+
+commit 658fa5f990c0eb8b88d89cffffa461705148ef76
+Author: legoboyvdlp R <legoboyvdlp@gmail.com>
+Date:   Tue Apr 30 14:52:50 2019 +0100
+
+    N272WA was a GE, not a PW!
+
+commit c960558ef21c1a14cef6bbbbadbebd46df95c9dc
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Apr 29 16:36:47 2019 -0400
+
+    Control: Fix my big error
+
+commit daac5154a442e331ff05a372e6479ca644b69a28
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Apr 29 15:13:03 2019 -0400
+
+    Sim: Fix flaps not set in ready for takeoff panel state
+
+commit 4e3892f4af907f3d32905855965255bfe02589cd
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Apr 28 22:30:18 2019 -0400
+
+    Control: Fix severe problems in stabilizer trim and other things
+
+commit 31b39231e181f1d7501cf16b72ac9dff1b8d0b29
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Apr 28 19:15:07 2019 -0400
+
+    Control: Refactor flap/slat system, should work with axis now
+
+commit eac058585bb06a57fa7443ebbda3ff239b23e839
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Apr 28 17:24:58 2019 -0400
+
+    Aero: Ground effect and many fixes
+
+commit 48f1051bc87d01e457672240bf93cf019ea9d93f
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Apr 28 16:49:34 2019 -0400
+
+    3D: Fix bumpspec issue
+
+commit a7ee15023398307851fa21fc5e174be4fa49940a
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Apr 21 17:16:58 2019 -0400
+
+    3D: Texture fix by CaptB
+
+commit 90ca1959f65341849d854ca5ab390e0d13966e90
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Apr 21 13:25:09 2019 -0400
+
+    3D: Model updates by CaptB
+
+commit 8bf8f2afad1f67c389cc2de3b24e0836b6975bc0
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Apr 21 00:15:30 2019 -0400
+
+    Sim: FAQ and README revised
+
+commit 73aa1faccffbb8030eaa6c894e05095fa3bdcf62
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Apr 17 19:06:07 2019 -0400
+
+    Control: Fix AFS doing bad things on engagement
+
+commit e325e9335cafb08cf7a0ed51e45073bda8479805
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Apr 17 11:33:38 2019 -0400
+
+    GIT: FAQ added
+
+commit 750c2a2e92ca46fe071e71cca2f47e6d161c4886
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Apr 17 10:54:23 2019 -0400
+
+    Sim: rename some, GIT: Issue template
+
+commit 346d423f91e9a5ca03e71d2f6e2fd1d6ec782046
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Apr 16 14:03:00 2019 -0400
+
+    Sim: More refactoring, VC: Fix armrests
+
+commit 2e6954260dcba7d503051bb05953677fdddcc6f2
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Apr 13 16:19:15 2019 -0400
+
+    Sim: Order mice keyboard
+
+commit ac7ec0f5bd06f9a06e0201e6335aa1fbfa959532
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Apr 9 23:00:38 2019 -0400
+
+    VC: Fix broken integrity lighting, fixes #3
+
+commit 3aec3e5c95916e8d4e69275ab841b982fa5a26f2
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Apr 6 16:30:27 2019 -0400
+
+    System: Fix severe AFS switching bug, fix other bugs, and begin some reworking of libraries
+
+commit 544be98bb5fb00322d3ab0782eb9721613f2f6d2
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Apr 6 12:44:39 2019 -0400
+
+    System: Fix severe mistake in hydraulics
+
+commit 001139275fea26e103bfcb7cdca547445298b12a
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Apr 6 11:33:36 2019 -0400
+
+    Control: Seperate FCC and FCS
+
+commit 1b797706c88a81fa50fd083976eef894bf88c2c8
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Apr 6 00:02:24 2019 -0400
+
+    System: Flight Control logic moved to JSB, some fixes, removed RCWS - not enough info to do properly
+
+commit 0844b20f6bdf1a9332dda2930c4e455c2a783e72
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Apr 4 21:05:00 2019 -0400
+
+    System: Begin new FCTL system
+
+commit fac1d7d5c4374a5ec5b20f27fb99e4f10c75fadb
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Apr 4 20:45:28 2019 -0400
+
+    Sim: Fix something
+
+commit 4e5654578e49212096eea12e37aed39fa3502b60
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Apr 4 15:15:28 2019 -0400
+
+    Sim: Revision
+
+commit 3347ac3fff011da48bb44bffaa86aabd7eaee39b
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Apr 3 15:23:35 2019 -0400
+
+    System: Simulate more detail, HSC operation, and souix city valve aka SYS 3 ISOL
+
+commit 778461ff8c9ca7c62c4627c956c4c9ea98671cb3
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Apr 2 23:55:39 2019 -0400
+
+    System: Hydraulic NRMPs now fully simulated
+
+commit c4c54c784ad43318987e0426e6a6828748293809
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Apr 2 22:16:45 2019 -0400
+
+    System: Hydraulic RMPs now fully simulated
+
+commit 0e4e7d256be6c5fd53b1bf2ea8833a4d957b8c36
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Apr 2 19:54:17 2019 -0400
+
+    System: HYD revisions
+
+commit 46eca9069dd7ac702d2cae9f99e06d86ad99cbb0
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Mar 31 11:08:45 2019 -0400
+
+    System: Fix ADG ELEC mode wrong due to RCB in wrong place in system
+
+commit 69c7f30eb79cf8e3f5ec6922922ff54d09582be0
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Mar 30 18:39:49 2019 -0400
+
+    System: More HYD work, fix bugs in OH, etc
+
+commit 41b676cd5d55459a5cabd1a0306baac6dbe8a270
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Mar 30 15:02:07 2019 -0400
+
+    System: More HYD work, refactor deflected aileron system
+
+commit 462159672a4a64e92c25604fc15a2775847f59a8
+Merge: e318c06 66dd66d
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 28 15:29:39 2019 -0400
+
+    Merge branch 'master' into DetailedSystems
+
+commit 66dd66d0cb031e8a207abf9eccea3de74f6e3fe1
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 28 15:29:28 2019 -0400
+
+    Sim: Fix a bullshit thing that exits
+
+commit e318c0609d133860f386d83e5bbd732d7ade69b3
+Merge: 20df9b7 e51bce4
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 28 15:27:54 2019 -0400
+
+    Merge branch 'master' into DetailedSystems
+
+commit 20df9b7d63d1f984067daded05e326e48a5bfa06
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 28 15:27:34 2019 -0400
+
+    Sim: New failure set/reset system, built into system. Prepare for new HYD
+
+commit e51bce4ae55f483c3d13bd793167f9fda6be415a
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 28 15:25:35 2019 -0400
+
+    Sim: Revision
+
+commit 4b907378d54860ff65597eb5145fb8c56c80b884
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 28 15:25:18 2019 -0400
+
+    System: Fix serious mistake in electrical
+
+commit 9044f5a1a88506e9b99168815406fe46a34bf125
+Author: legoboyvdlp R <legoboyvdlp@gmail.com>
+Date:   Wed Mar 27 14:04:25 2019 +0000
+
+    Improve MCDU: reduce height and colorize colour
+
+commit efcbd48c94e84e43bf0ac6d903918a25079e914e
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 25 10:07:12 2019 -0400
+
+    Sim: Fix bug in FD button handling, System: Fix electrical not powering generics
+
+commit 869d47ef5f64fa63fa0358b178c048ef6e7333ee
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Mar 24 16:58:13 2019 -0400
+
+    Sim: Revision
+
+commit a73ee93ef6b0e9a070f8f3c62fd7380e6a6789d6
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Mar 24 16:57:47 2019 -0400
+
+    System: Add DC Electrical System, connect DUs to proper electrical buses
+
+commit 6c5db5cd4070ca68e536aa700d73da60f283b3eb
+Merge: 1fc97ec 89655fb
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Mar 24 00:18:33 2019 -0400
+
+    GIT: Merge master
+
+commit 1fc97ec7f33a52945bb3839972c7c83602613498
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Mar 24 00:16:44 2019 -0400
+
+    System: Again reworked electrical, DC still TODO
+
+commit 89655fb65dd8eb0b2a2aae9879e366b3f3d74500
+Merge: 83bd005 8f22425
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Mar 24 00:16:16 2019 -0400
+
+    Merge branch 'master' of github.com:it0uchpods/IDG-MD-11X
+
+commit 83bd00507c7f4cd12d203288a2f09f57cba365fa
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Mar 24 00:16:02 2019 -0400
+
+    Sim: Port autopush
+
+commit 8f224251048ebc8a187793a962d61e162fd252a3
+Author: legoboyvdlp R <legoboyvdlp@gmail.com>
+Date:   Fri Mar 22 17:03:41 2019 +0000
+
+    Fix screen corners
+
+commit 61aac14a69d1e34b431dfe746483521d11070ae8
+Author: legoboyvdlp R <legoboyvdlp@gmail.com>
+Date:   Fri Mar 22 16:42:25 2019 +0000
+
+    Update CDU
+
+commit 88d226380f924052f5e98cdcef02c1cf9d9e9cbb
+Author: legoboyvdlp R <legoboyvdlp@gmail.com>
+Date:   Fri Mar 22 15:35:35 2019 +0000
+
+    Add MCDUs
+
+commit 34406432a14549464091d36ec982dcd07261a4e7
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 21 20:07:37 2019 -0400
+
+    System: Fix behavior of galley buses/lights
+
+commit 428c72ad9fec36b74a3f4529556c1feb32a7ac90
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 21 19:40:53 2019 -0400
+
+    System: Simulate ADG, VC: Add ADG Handle
+
+commit b30a428510a8926df782b3cd09d66a0bcc732da1
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 21 16:32:09 2019 -0400
+
+    VC: Fix lights thing
+
+commit 8ecc24e81ea3cbd7aa319ff76d1318941c365ae0
+Merge: 9a33f4b 85d1a8b
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 20 20:07:11 2019 -0400
+
+    Merge branch 'master' into DetailedSystems
+
+commit 85d1a8b0f6a441bec2fbb5b56a32523def887346
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 20 20:05:27 2019 -0400
+
+    Engine: Fix wrong tfsc causing too low fuel consumption
+
+commit 9a33f4bd46ed84dcb442b03c1ff3a9e865f93e4a
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 20 19:34:00 2019 -0400
+
+    System: Add battery charge/discharge logic
+
+commit 3e3d260bc72248d6e4d13b12d9ce5b7718b337ba
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 20 17:03:27 2019 -0400
+
+    Control: More detailed battery
+
+commit ba53e7fa5a07da2f134a9737d8ee8ef1ccd2e448
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 20 13:39:03 2019 -0400
+
+    System: Revised DC bus logic to match FCOM schematics, prepare for battery charge logic
+
+commit 2511ef64bdf27be7b976a17c5ce6c5924d04465b
+Merge: 7f34dd8 98a1230
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 20 01:56:25 2019 -0400
+
+    Merge branch 'master' into DetailedSystems
+
+commit 98a123051c6dc0114e64d823d893fd1c2d255414
+Author: Josh Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 20 01:55:35 2019 -0400
+
+    Sim: Fix something weird in acconfig
+
+commit 7f34dd88e32b3372e0dde9472eebc4fbececd02a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 18 23:44:55 2019 -0400
+
+    System: Add Elec Library Sources
+
+commit 6e013a31f69dfee8e0144286edeed76b3df65e5d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 18 22:55:33 2019 -0400
+
+    System: Fix IDG3
+
+commit ad9e0b0dac048ca503adc95cfb223f1ba32e258b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 18 22:30:27 2019 -0400
+
+    System: Simulate electrical system controller + refinements and fixes to electrical behavior
+
+commit ff6a4a3b57811f0582009f76b1b4e67892a3f76e
+Merge: 665e929 08aae68
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 18 19:14:04 2019 -0400
+
+    GIT: Merge master
+
+commit 665e9294764e65c85b43b2c67db09f0a2dd8e0a8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 18 19:13:26 2019 -0400
+
+    System: Add new JSB electrical system, no ESC yet
+
+commit 08aae68b763d5a338c092d8af7f1c583b0a15cb0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 18 19:12:26 2019 -0400
+
+    VC: Fix a problem with overhead VC
+
+commit 3652b99ceadb4c176daa76319b561460ee283be6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Mar 17 00:45:22 2019 -0400
+
+    Sim: Cleanup
+
+commit 55c274059c19e98f34cee74aed06acc8962a8a84
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Mar 16 22:31:20 2019 -0400
+
+    System: Fix bug
+
+commit 6469e7fc2f8536a05e2885689d07dddb0bf559b3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Mar 16 20:15:51 2019 -0400
+
+    Sim: Port nws-force
+
+commit 07063c5aa02cfdc68eeb36538373b0deb2b6a18b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Mar 15 22:14:56 2019 -0400
+
+    System: Fix AFS behavior, DU: Correct RETARD annun behavior, Sim: Fix gear agl
+
+commit 33c63d28305334331fed423be2186a8acbfb18d3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 14 17:31:37 2019 -0400
+
+    System: Fix something else
+
+commit c5517623bfa5a2b69fb998f652d9b1aeb8cfaa6e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 14 17:30:20 2019 -0400
+
+    System: Fix something
+
+commit 48df7f939c047b0ec082215c6b00d43cc88e2720
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 13 22:33:12 2019 -0400
+
+    GIT: Formatting
+
+commit cd18d84cc022fca252fc22f3ae69e46d78622c62
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 13 20:42:28 2019 -0400
+
+    System: Fix something
+
+commit 3434ad446f65efe3eb74d51c47b4663207d7f5ae
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 13 19:35:50 2019 -0400
+
+    GIT: Fix comments
+
+commit c5d1a4db50ea65a05904d8721e645f373e441909
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 13 19:28:37 2019 -0400
+
+    System: Fix order issue
+
+commit 2fc8c16506a2610007ef2feadbd2e3e86469334a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 13 18:46:13 2019 -0400
+
+    GIT: Update comment
+
+commit 0733c4961a3795c9ca30b9b6815972f20595fe5d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 13 18:08:03 2019 -0400
+
+    System: Completely rewrite AFS Controller, Model: Improvements to CaptB
+
+commit e6a7c6c8886a55ef07ada89ac800d8b086ca8a0e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 11 19:01:56 2019 -0400
+
+    Model: 3D Fixes by captB
+
+commit 526189bb3db0a8f5512fd985520e04fb8f8dd462
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 11 16:24:00 2019 -0400
+
+    Model: Fix animations of ailerons, elevators, and rudders
+
+commit dc0e193af819c124e47576a5d3dea7525c2eed18
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 11 15:56:02 2019 -0400
+
+    Model: Fix misnamed object
+
+commit 68d1400b323167d8aa92bac2983b1ef29a32afc8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 11 15:49:44 2019 -0400
+
+    Sim: Add 'CaptB' to authors
+
+commit 0a8d6f06858af9405b75999daf1ee2d9e48b141a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 11 15:48:59 2019 -0400
+
+    Model: Huge improvements by 'CaptB'
+
+commit d5b20dbbced26c328cc7376e287d103f62adf834
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Mar 10 21:28:31 2019 -0400
+
+    Sim: Fix agl ft calc
+
+commit 61ee33b3621097ca9eaad79514b23c6761b77e31
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 7 22:04:35 2019 -0500
+
+    Sim: Cleanup
+
+commit 36e227e39938c8dfbd512557a89528c7fb454583
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 7 17:14:48 2019 -0500
+
+    Control: Corrected surface rates
+
+commit 65b2325187243747d722e9672a808e2e38634bc7
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 7 15:03:00 2019 -0500
+
+    Sim: Fix VRP and view location on 3D -- fixes exterior view bugs
+
+commit 1e4d506e955e58676046c4fcc3481659ab6e56c2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 7 01:25:38 2019 -0500
+
+    System: Add Hz, TR Volt/Amps and DC Amps to electrical system
+
+commit 34a33a8dd9f55f5b51b085dcfaab36d5e7f99bc6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Mar 7 00:02:33 2019 -0500
+
+    Sim: Cleanup
+
+commit cd7e2873de997ce5c12912de3c3bf59b7a4d1d2a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 6 20:31:24 2019 -0500
+
+    System: Fix serious APU bug
+
+commit c17c6e29ab11215174f5b83c70e0fb2ed5153fcf
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Mar 6 19:00:09 2019 -0500
+
+    Sim: Fix Generic Electrical not being killed -- yuck!
+
+commit 26bf76097eca485d416d3a030c44bbe3c14c3343
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Mar 5 20:31:57 2019 -0500
+
+    Sim: FORMATTING
+
+commit bfa9053b10082ebea31532eae0319df760c915e0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Mar 5 20:28:30 2019 -0500
+
+    Sim: Fix
+
+commit 00b38a2c2b07c0c6587b040ac796e1dccc610135
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Mar 5 20:27:03 2019 -0500
+
+    Sim: FORMATTING
+
+commit 145e28f10433a081986835b09b126229992aad15
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Mar 5 12:39:54 2019 -0500
+
+    Sim: Flight Recorder now records all surfaces, move fake engines up one, to allow jsb apu in [3]
+
+commit 9768acba7eb0d2d16bb12ae92fbd88456a7d739b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 4 19:03:22 2019 -0500
+
+    Sim: Add full thrust key
+
+commit 243297b60808268c78185c49bba732eb1f9dd258
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 4 17:32:44 2019 -0500
+
+    VC: Fix bugs in prop pedestal
+
+commit e0b0bff55a3ffbe74c4cddf2bb63fe5d75015506
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 4 17:16:35 2019 -0500
+
+    Control: Fix elevator trim useless thing
+
+commit a0eecd70ebf6383a84a57d6e0ae4c67ec14a5849
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 4 15:05:12 2019 -0500
+
+    Control: Much more accurate Yaw Damper + Turn Coordinator scheduled to match real errors
+
+commit f0b8a6588d4fdcb909593a226b6e6469049b91c7
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 4 14:08:33 2019 -0500
+
+    Sim: Fix duplicate fuel init
+
+commit b38d8613a1542473c9b9b671653d411e3f4633eb
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 4 14:04:39 2019 -0500
+
+    Sim: Cleanup
+
+commit 5f9f82ad562d57e2404ad3334ff99bd5a7216f05
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 4 13:49:12 2019 -0500
+
+    Sim: Fix stupid radio stupid
+
+commit 9bd2dc4b907efe01786da13eda2959c35bb125dc
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 4 13:35:46 2019 -0500
+
+    Sim: Cleanup
+
+commit 714c20c20f9d5b0bd9f4ff82b20b5f0259935c50
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 4 12:11:45 2019 -0500
+
+    System: Fix AFS GO AROUND button not working after touchdown
+
+commit dc8a98202dd47546528817b0494281bc5a7d69b2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Mar 4 12:01:13 2019 -0500
+
+    Sim: Fix minor bugs with lighting
+
+commit 9de4b8e07c47bf91519b19a307ce8b54fc137a14
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Feb 26 11:24:31 2019 +0000
+
+    Lights
+
+commit f5b61c00f7edbdb674a6d103e0dd6d434d6382d0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Feb 25 20:26:30 2019 -0500
+
+    System: Fix severe mistake in GO AROUND logic, DU: Fix slip/skid indicator
+
+commit 9bfcc4bf96b5b963e52d0230a885aa8737b75716
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Feb 25 20:13:13 2019 -0500
+
+    Sim: Refactor FCP, System: Fix AFS logic bugs
+
+commit 003a29fab8ebe9209aa86e55b7540deef81e7aac
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Feb 24 17:42:19 2019 -0500
+
+    Sim: Fix bug in heading predictor
+
+commit 97a814cb37452f829dbf72c35ca1cea71b7430d0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Feb 13 22:22:09 2019 -0500
+
+    System: Fix unreliable AFS Retard, SPD/HDG Sync code
+
+commit d22146df631d2059b122cf372f5bf2a57284082f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Feb 12 13:52:00 2019 -0500
+
+    VC: Fix speedbrake lever and elevator trim lever
+
+commit b5204bc7b544106ee39d9e03a9f3bc9dfd9165f9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Feb 11 18:18:01 2019 -0500
+
+    Aero: Fix roll_yaw
+
+commit 649c0c62869154a9f7c16e522d49813feb7b5fbe
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Feb 11 06:47:58 2019 -0500
+
+    Control: Switch to actuators, fix spoiler roll bug, VC: Make pedestal animations smooth
+
+commit b2f75eb03b0c71d20dcb746f2b28c98fa573e9dc
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Feb 10 18:49:38 2019 -0500
+
+    Sim: Make lightmanager require power
+
+commit 71f53df3a7fc0177b356448b94d2e0654292333c
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Feb 10 18:25:14 2019 -0500
+
+    3D: Fix floating rear strobe lights
+
+commit bc74c75748566eccd8452bcab367c60197ccf02e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Feb 10 18:07:09 2019 -0500
+
+    VC: Move to jpgs, and fix cockpit integrity lighting
+
+commit 41105287a009d36fb87186d19f7c0601d052fcad
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Feb 10 13:54:38 2019 -0500
+
+    Sim: Fix gear reactions
+
+commit 3cd415c1d8fb624bfa280c55b9bc3f049dc35faf
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Feb 9 14:04:21 2019 -0500
+
+    Sim: fix payload bug
+
+commit f4c2a0d27b302afd9126fd540c4d3a27be15515e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Feb 9 13:47:30 2019 -0500
+
+    Sim: Update dialog update
+
+commit 678d0fe19626e346ec3d9932308eb37b77ddf561
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Feb 9 12:44:03 2019 -0500
+
+    Sim: Rebalence pax properly
+
+commit 1161c9b09ab0b2ae1d37c599bd1935d5b7d3c215
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Feb 9 11:59:04 2019 -0500
+
+    Sim: Fix weights to proper locations
+
+commit 0c9ec59e17bd00c92e55b12db106b16a401fa27b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Feb 9 00:27:13 2019 -0500
+
+    DU: Fix VMOMMO
+
+commit a776a261bb3cb0fd502a068e395f7e40e67485ec
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Feb 9 00:21:20 2019 -0500
+
+    Aero: Fix a bad thing
+
+commit d8975bb8297caea7f5338231a55e07b42d5012b7
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Feb 8 19:40:00 2019 -0500
+
+    FDM: Forgot to save some files...
+
+commit 89c6f97914fde5433ab7a8d372137a95db67a579
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Feb 8 19:35:59 2019 -0500
+
+    FDM: Forgot to save some files...
+
+commit 1a2b7e9e757b130116978bfe9ca5b8f151aafc1e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Feb 8 19:33:23 2019 -0500
+
+    FDM: Adjust CG
+
+commit cd5904d65acb5ec2b747c541deeca9bf6dbd3250
+Merge: 3a059cc 98a7140
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Feb 6 10:45:26 2019 -0500
+
+    GIT: Merge master
+
+commit 98a714095a578911f28b38bf4399f203d8a2f741
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Feb 6 10:44:36 2019 -0500
+
+    3D: PW model updates by Zack (Zhuangt98)
+
+commit 3a059cc8fbffc28345e3216f4a34d4aaf251c658
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Feb 6 00:38:26 2019 -0500
+
+    Aero: Drag corrected
+
+commit 856d2310832f47adcfc3b9a834a867b573963c3a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Feb 6 00:02:04 2019 -0500
+
+    Aero: Expiremental Huge Improvements to Aero, Sim: Add weights system properly
+
+commit 0b0c6b6a15fa84cc15db8fffd98a273ea165d237
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 27 12:19:52 2019 -0500
+
+    GIT: I am stupid
+
+commit f09653873c17a87897cf903da8ca0e67a35e1bf1
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 27 12:19:17 2019 -0500
+
+    Engine: Fix mistakes in EPR calculation - thanks various ytbers
+
+commit 2c579ef40468ff5d57d763eddb7265932b70ddbe
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 25 15:36:28 2019 -0500
+
+    Sim: ACCONFIG typo fixed
+
+commit a18b6b588df164c2727f401a8b463c869e18134a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 25 15:35:47 2019 -0500
+
+    Sim: ACCONFIG typo fixed
+
+commit 3f5434a3d8e52f5a0180d0047fc0c70e2c914beb
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jan 24 20:31:51 2019 -0500
+
+    Control: bugfix autoland yaw
+
+commit c8780eb04cc2758da7116ca9b6f639b0eb20565a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 19 17:22:35 2019 -0500
+
+    Control: Fix AFS Heading bugs, fix PFD HEADING display
+
+commit 3e90dbedf8cec60e0af16a6e4d94e162e7ddbca1
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 19 13:59:27 2019 -0500
+
+    DU: Fix ALT scale, System: Fix AFS A/P warning not working on autoland disc
+
+commit c3e2f6877738c7042b40d767acb5ba29de1bbbd5
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 18 16:31:28 2019 -0500
+
+    DU: Add NO TAXI logic to PFD
+
+commit a666e5818e8e842cb4d36d791b2ca446e4a34171
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 18 16:15:41 2019 -0500
+
+    System: AFS NAV logic refined
+
+commit dea06b820883fe2f83548e18186de2c2ffd6250a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 18 16:12:30 2019 -0500
+
+    System: AFS NAV requires IRs
+
+commit 770d355b4de0403ac817d1605b773f345d3ac6ec
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jan 17 20:02:52 2019 -0500
+
+    Sim: Fix gear tilt simulation
+
+commit ce0ef75748ba0eae12f196ae2e60c8bd686e3d5e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jan 15 18:10:46 2019 -0500
+
+    Control: LSAS Pitch Attitude Limiting
+
+commit 648935b8d34be4f37387fab02d3b2218c196b14a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jan 15 15:22:59 2019 -0500
+
+    Control: LSAS PNL condition changed, PAP switch added
+
+commit 3ba6202189ac63201bb2c750862a831a870103a5
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 14 23:37:11 2019 -0500
+
+    VC: Correct landing light animations
+
+commit 65b623106ba2bb26ed3a245167a04ef92fef79f3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 14 23:17:31 2019 -0500
+
+    VC: Add/fix OH lighting controls, System: Fix Taxi Light Manager, Sim: Add lights to ACCONFIG
+
+commit b0b2676b645937cc24e823d6996fe43f279e98e3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 14 22:23:25 2019 -0500
+
+    DU: PFD Colors updated, add AGL to altitude indicator
+
+commit 62eac653f1784c2bd826130964b261e697298dec
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 14 19:35:38 2019 -0500
+
+    DU: Add pitch down 'oh shit' arrow on PFD
+
+commit 5e5be47e0b8464611972dac6d5f8c9094d41fd6f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 14 19:20:42 2019 -0500
+
+    Control: AFS Autoland behavior improved, DUAL/SINGLE LAND, and APPR ONLY logic implemented
+
+commit 526da66788389d6c0b87347680ff2aacdf549b6f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 13 16:02:26 2019 -0500
+
+    Sim: ACCONFIG Bugfix
+
+commit 796fcaa14a3898cc8bdac8f64aeacbacdd8ac462
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 13 15:53:03 2019 -0500
+
+    3D: DAL livery fixed
+
+commit b5eb4494d431976bf62860cdfd77fbddc6247b67
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 13 15:39:02 2019 -0500
+
+    Control: ACCONFIG Bugfix in Flap/Slat, System: APU EXT behavior buttons fixed
+
+commit 93ac5f369bde20b6bf910de80de82ca65e2727e9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 13 14:54:19 2019 -0500
+
+    DU: Correct weird negative VS behavior on PFD
+
+commit 23148ffe0ac068e411917bcbb867f42593816166
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 23:57:42 2019 -0500
+
+    Sim: Add custom GPWS, add Minimums logic, Control: AFS Push bugfix
+
+commit 46fc4e9ea85f4c1b5fc86b91010ccfea1f172b8b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 23:10:53 2019 -0500
+
+    Control: LSAS Trim Improvec
+
+commit 0ec2e058ebce0d0e28005ff6b5d6f57ca0e8ac2a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 22:03:07 2019 -0500
+
+    Sim: Various fixes
+
+commit 4c1749842b07d12fcc090e6e0f029ab558bd3cd6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 21:49:42 2019 -0500
+
+    Control: Fix RETARD resetting to THRUST on touchdown
+
+commit 76b8cda698733b85ee4897e3f0d67979028de037
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 21:41:52 2019 -0500
+
+    Sim: Fix clamp sound playing for no reason during panel state load
+
+commit 2201a4026701ea91a4ba6dc8c2768ae99c823064
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 21:37:05 2019 -0500
+
+    Control: Simulate ATS CLAMP, Fix G/A button and behavior
+
+commit a17109d64de95eac60b770fe72187d03fbf2a47c
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 14:14:01 2019 -0500
+
+    Control: Add Pitch Nose Lowering function of LSAS
+
+commit 7606998251d41f54ab4191f520c1ce0a4d1532b7
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 13:59:57 2019 -0500
+
+    Sim: Views adjusted
+
+commit 20da4583afebbfd565a6250a46544f7d61e7f3b0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 13:48:32 2019 -0500
+
+    Sim: Views adjusted
+
+commit 6f55e753744c74f90f8836c75e9bb32a92a355c1
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 13:16:37 2019 -0500
+
+    System: AFS and FMS 1/2 switching simulated, AFDS OVRD switches working
+
+commit 201c520008ae4094ada9384868bcf29f4c9ebae9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 09:40:20 2019 -0500
+
+    Sim: ACCONFIG Rendering update
+
+commit ee712b8220dda772ff07235e46ed303c72fdbdbd
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 12 00:01:58 2019 -0500
+
+    Sim: AFS and ATS DISC keyboard shortcuts now cancel warnings
+
+commit ad86c080956dc9798a8d78da0c3d95fe9182bad3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 11 23:33:23 2019 -0500
+
+    System: AFS Master Logic reworked, second AP or ATS disc button silences disconnect warning: VC: Add AFS disc buttons to throttles, fix buggy animation
+
+commit c1300d273d42feb29d89717dbe37239db7c9a8c2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 11 21:19:06 2019 -0500
+
+    System: FADEC limit logic fixed
+
+commit 896b1fe0a755492d21b26e88f10109475efcb25c
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jan 10 13:27:12 2019 -0500
+
+    Control: AFS Improvements
+
+commit c10e5fc157ce1b17d6c69cf6e9e73658ba8e4800
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jan 9 21:53:04 2019 -0500
+
+    System: Huge fixes/improvements to AFS, resetting after engine shutdown, DU: Fix 'AP OFF' typo
+
+commit 34371e5c280886d8a83f39084bf97b551a8a77d8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jan 9 20:41:40 2019 -0500
+
+    Control: Fix autoland
+
+commit a2902abc1f4dc8745353a067aa61cd0eaa87ab7d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jan 8 19:22:52 2019 -0500
+
+    Control: Fix minor AFS thing
+
+commit 2b5a638ba72c03a124bdf4c73ef6eb1de181b1b3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jan 8 19:16:44 2019 -0500
+
+    Control: Fix AFS VS and FPA limits
+
+commit dc4e1b304835692de4283fd74f6dd8cca0ab3f99
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jan 8 18:08:15 2019 -0500
+
+    Control: AFS does not lockout rudder
+
+commit 2603e9c779fb68c16d732fc5f039515a34779c25
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jan 8 18:00:15 2019 -0500
+
+    DU: PFD optimization
+
+commit 86f4837bc85893ad6cc7197ddfe59a3231a7fe94
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Jan 8 20:35:40 2019 +0000
+
+    PFD - props.nas
+
+commit ba40d828c03ccb78eab03da196b817d30793ca45
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jan 8 00:34:53 2019 -0500
+
+    Engine: Update N1/N2 values
+
+commit 740ab9308549e4a58afe01a55942611d820d914e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 7 23:45:13 2019 -0500
+
+    Control: Implement flap limiting feature, fix elev feel failures, DU: Add more flap detail
+
+commit b34008c3af6b362edd2e59b3d6993a585c8d8d07
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 7 22:12:06 2019 -0500
+
+    Control: Fix SEVERE problem with flaps
+
+commit cadc4baef2c84f0b80b727b9a90e004fb7ff2b10
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 7 20:56:45 2019 -0500
+
+    Revert "Sim: Compatibilty Update 694"
+    
+    This reverts commit f465625ade659e018b5f93b419512acca7f7a532.
+
+commit f465625ade659e018b5f93b419512acca7f7a532
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 7 20:56:19 2019 -0500
+
+    Sim: Compatibilty Update 694
+
+commit 5228dbadd5ce13ab075df7ac02c30e7e724ae5a4
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 7 20:20:29 2019 -0500
+
+    DU: Add overbank and FPD to PFD
+
+commit 1e34f8c16fa42bc81b9dfae7b1213e65b3f4b381
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 7 17:20:26 2019 -0500
+
+    DU: Add overspeed yellow bar to PFD
+
+commit 95732b414c9bea0cd10bee638dcf18c46688eaf1
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 7 00:40:28 2019 -0500
+
+    DU: Add overspeed barbar pole to PFD
+
+commit 7f68059e0f01b9c56747b5ce44a074918d773511
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 6 22:23:18 2019 -0500
+
+    Control: More detailed ELEV FEEL logic and make ELEV FEEL Slew knob work
+
+commit 6cb36aa6f2080e504ad20f84716f8f94d925a274
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 6 12:08:42 2019 -0500
+
+    Aero: Fix drag typo
+
+commit 410124ba498867909c6a7f4df66f4e6d0aa2221e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 6 12:01:29 2019 -0500
+
+    Control: Add ELEV FEEL logic, improve LSAS trim
+
+commit 403b356b35b0f4204522f65d554f555a4219b714
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 6 01:36:48 2019 -0500
+
+    Aero: Improved, Control: Remove stupid things, add ELEV FEEL simulation, needs more testing, Fix HI gains of AFS and LSAS/RCWS
+
+commit 85a81428737d7928d7b7d8424de76684e2a52c3a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 5 17:30:37 2019 -0500
+
+    Sim: OPRF damage code on KC-10 changes
+
+commit 123d8896e0e993253000b3ed6c39a530b753b0de
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 5 16:16:11 2019 -0500
+
+    VC: Add FCTL panel, System: Simulate LSAS and YD channels in FCC, dependant on Hydraulics and proper electric buses
+
+commit c6594007e46178aee18c281385c2a5cfeacab791
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 5 13:11:49 2019 -0500
+
+    Engine: Fuel consumption fixed
+
+commit e6afeb7195fc1825c558119d1bb7508ae2932994
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 5 12:48:29 2019 -0500
+
+    Control: LSAS Tweaked
+
+commit c5a6721ef34710c35473279e0086bf7fd73cad60
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 5 01:45:13 2019 -0500
+
+    Control: Overhaul and improve LSAS system, each of the 4 channels now modelled independantly
+
+commit 9da303f1f8b3b68a1fbc19e5e84b68d967f2c80d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 5 00:51:43 2019 -0500
+
+    Sim: Fix dialog spelling
+
+commit f809d22ff87b0834f355a42c82e13fd313273cd2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 5 00:47:40 2019 -0500
+
+    Sim: FUEL failures
+
+commit 01c4b074c15b835cdb37fb5dab5c1d8fd16d27a6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 5 00:04:59 2019 -0500
+
+    Sim: ELEC and HYD failures, System: ELEC ESC improved
+
+commit 8092799f9394c50cb459a216c4f653edc4de6093
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 4 23:39:18 2019 -0500
+
+    Sim: ACCONFIG bugfix
+
+commit 9924bf544bac0107a229b0d3e0c6f765b7ebe4cd
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 4 23:03:22 2019 -0500
+
+    System: Pneu bugfix
+
+commit a28fcf9cbfbf457fdd2466c1f06f4e92394fe2e8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 4 22:39:15 2019 -0500
+
+    Sim: Add PNEU failures, some FCC fixing
+
+commit f44e496744075dc7907bcfd53b67019099212531
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 4 21:56:14 2019 -0500
+
+    VC: Fix stupid grayish buttons
+
+commit a9a54c8dcfd97402d86f9af013543d02d52177c3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 4 20:56:35 2019 -0500
+
+    VC: Fix stupid colors and glares
+
+commit 07ae39944d22d8d3f4da12c397695dd21ccc6785
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 4 18:23:04 2019 -0500
+
+    GIT: Formatting
+
+commit c4df8dfab590d35abe5acad4c5addbf6adad8e85
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 4 18:21:33 2019 -0500
+
+    Engine: EPR calculation tweaked
+
+commit cd3b0880c7729bceba62ea9d1e30a6f02d67ff74
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 4 18:16:54 2019 -0500
+
+    DU: Fix stupid behavior of altitude  when negative, Sim: Fix hackCanvas bug
+
+commit b45d0b23b55cc3227b980cfee9646b837c850aaa
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jan 1 01:08:42 2019 -0500
+
+    Sim: 2019
+
+commit 63063adb99b118183543f0d1584f927a37f6985b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Dec 30 16:57:31 2018 -0500
+
+    Control: Nose Gear refactored, autopush updated/fixed, Sim: UI changes
+
+commit a4e1c5de05ac0997e339b15c98277ba038ff9c71
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 29 22:57:04 2018 -0500
+
+    Sim: Move autopush dialog to gui/dialogs
+
+commit 970342cc85fd7189d618e937c6484d050712c2ab
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 29 22:18:01 2018 -0500
+
+    Sim: Sync with autopush 'lite' bugfixes, experimental coeffs for smoother performance
+
+commit acf6f1c13d1a2484267f4399aa4cc29231f8c756
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 29 16:46:23 2018 -0500
+
+    GIT: Nothing
+
+commit 4ef14170d6304c6ddd763bee0ae6ca0a3c7b0c04
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 29 15:54:45 2018 -0500
+
+    Sim: Spoiler lever bug fixed
+
+commit ff72bca6fde9d57040de5be7b0b95a124305f3f1
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 29 14:47:24 2018 -0500
+
+    Engine: New EPR Calculation Curves
+
+commit ed8d3cceeacea5eb073f54f82c41447a770d9740
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 29 14:09:30 2018 -0500
+
+    Engine: Fix Engine 3 FF -- my error
+
+commit ccf7c9709beead486396c789b8882c48ed30f654
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 22 12:54:09 2018 -0500
+
+    DU: EAD PW N1/N2 fixed
+
+commit 5a6fb61fd7b31c73ee4438bac4aaf50412e06ed9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 22 12:50:19 2018 -0500
+
+    Engine: PW N1/N2 fixed
+
+commit 84556ed4900af560ac18248ceffbd247ac8bbdb9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 22 11:59:39 2018 -0500
+
+    Engine: Fuel Flow fixed, Sim: Wingflex smoothed
+
+commit 243596a9677cfc90da5f3760676e9e2abfcd390d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Dec 21 17:12:02 2018 -0500
+
+    Sim: ACCONFIG 1.5.1: Rendering options wrong detection
+
+commit 6add069ce57d05b1fd70e98ead4b7790be0bdcb9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Dec 19 21:06:11 2018 -0500
+
+    Sim: Change notice
+
+commit 0455501525845000f5d1a2c7e9639a9025ec7490
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Dec 19 21:05:35 2018 -0500
+
+    Sim: Change notice
+
+commit 4ec9c5dbeece74da2937de8ee305cec513047e60
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Dec 17 23:00:19 2018 -0500
+
+    Control: This commit does nothing! Please ignore this unless you for some reason care about it!
+
+commit 1c452ea7279cdead20215e3a05405585a73f0653
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Dec 16 21:37:46 2018 -0500
+
+    Sim: ACCONFIG Update system dialogs refined, 3D: Refine contrails
+
+commit 94775a69f1f7be63b4858cde5983e52871adb3c6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Dec 14 20:54:06 2018 -0500
+
+    Sim: Ground reactions update
+
+commit db5c32b6bcad4ce3b3b9d6d95b14eba4e7547c7e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Dec 10 15:44:23 2018 -0500
+
+    Sim: GUI updates, now 2018.3.1 compliant
+
+commit 747145feba7c35a24f04ff4c866f955584396c42
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Dec 7 22:25:45 2018 -0500
+
+    System: Fix AFS Master logic
+
+commit 009dee006cc12dd42660e10aec6e36abc1af419b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Nov 9 15:36:50 2018 -0500
+
+    Control: Fix AFS bug, reduce mach pitch gain
+
+commit bc57abcb5af9c590e6c7d29e71f6c7df4316e450
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Nov 8 10:17:04 2018 -0500
+
+    GIT: Formatting
+
+commit 4a87fd747404286acf8594ec5c51c1ea9fe5f221
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Nov 7 23:43:29 2018 -0500
+
+    Control: Fix FPA hold in AFS
+
+commit ae513d8cce6e06677604b7a75e27ed7f60456d0a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Nov 7 23:25:55 2018 -0500
+
+    Control: RCWS reworked
+
+commit 23cd8006050f3c6600488007f1208f796a6173c4
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Nov 7 22:56:26 2018 -0500
+
+    Control: LSAS, YD, and TC reworked
+
+commit ee2a243cb4e861ec73a5ef15b1769ec721936edc
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Nov 7 22:24:40 2018 -0500
+
+    DU: Fix PFD heading scale
+
+commit 0c5d7e13ff2e53fa2216de685bc4805a031bb686
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Nov 7 22:16:48 2018 -0500
+
+    Control: AFS now much mroe stable
+
+commit cc09ada3c89f654aff9b7d06c5cfe74e03c4f247
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Nov 4 23:12:52 2018 -0500
+
+    Sim: Update instrumentation file
+
+commit c03defeea6d22d106b4a2c7f8ee5890519f28ceb
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Oct 30 19:16:18 2018 -0400
+
+    VC: Implement ND controls
+
+commit 01afd9ec71b963d917d97d1d6a9f96cec215560e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Oct 24 17:30:07 2018 -0400
+
+    Sim: remove obsolete
+
+commit bf45aa364d600982f3b7a4215b6bb29c0683bf71
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Oct 24 15:15:53 2018 -0400
+
+    3D: Fix wing NAV/strobe lights not following wingflex
+
+commit 89cc92f5d91da3c182e089b074369b522f2fab66
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Oct 23 19:31:41 2018 -0400
+
+    Sim: remove walker -- buggy
+
+commit 715499318530f3f56ce076dd370ed25c6e69f845
+Merge: d1c1a20 e6057f1
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Oct 23 15:15:17 2018 -0400
+
+    Merge branch 'master' of github.com:it0uchpods/IDG-MD-11X
+
+commit d1c1a202019aa0746ce17202d9cf619f1a1075c9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Oct 23 15:15:04 2018 -0400
+
+    Sim: Dialog update
+
+commit e6057f1b893edc687d1f53b1bf6c69b5c3ed291c
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Oct 23 20:13:53 2018 +0100
+
+    Make lighting specific
+
+commit 8d748c63adc9ba0419c68ccc6a274e0bdeb6c2e3
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Oct 23 20:05:06 2018 +0100
+
+    Update revision
+
+commit eb5c7b9337c2910f375e971fac8b62c0f8b0166e
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Oct 23 19:58:33 2018 +0100
+
+    Bugfix: reduce size of tailnav
+
+commit 4d4f4e7a876b3545279921c26d1150e3597fa510
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Oct 23 19:55:00 2018 +0100
+
+    Lightspots
+
+commit 14c8d5b37927f411a7d5997dc04f0ffb4ed19d61
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 20 18:14:15 2018 -0400
+
+    GIT: Formatting
+
+commit e4f6ce7ae25b67a708252c9f76b7224b6be24a67
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 20 16:10:58 2018 -0400
+
+    GIT: Formatting
+
+commit d8ceaac011f5b73da1833a37936fa145fd994f28
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 20 15:00:32 2018 -0400
+
+    Control: Fix A/P Yaw Axis
+
+commit f7c7023602a742a955e723131b728430c907be97
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 20 14:40:39 2018 -0400
+
+    Control: Fix A/P Yaw Axis
+
+commit 260e728ac12cbc0106a2e446e1c86fc004a2e897
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 20 13:14:57 2018 -0400
+
+    Control: Fix A/P Yaw Axis
+
+commit c49735b24c2776a59ea9f48910e82535baa34f72
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 19 22:51:01 2018 -0400
+
+    GIT: Formatting
+
+commit 9a93b63daf8a06ce8082114e8b60675c606360ba
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 19 22:34:57 2018 -0400
+
+    GIT: Formatting
+
+commit 1891cc492c374e338d05e788017e7b585d4f5914
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 19 22:34:20 2018 -0400
+
+    GIT: Formatting
+
+commit f0c35598ef1c39a379ea7d550cd4b083950c3209
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 19 22:29:30 2018 -0400
+
+    GIT: Formatting
+
+commit 8af7145300be43bd72ca66038cbfd85cdc6f771c
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 19 21:43:40 2018 -0400
+
+    Control: LSAS tweaked, update aero slightly
+
+commit 81ff8face710835903f253d4ebf7ead6d3733693
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 19 19:42:37 2018 -0400
+
+    Control: Huge A/P stability fixes, and fix overreacting, Aero: tweaked
+
+commit 6e84589a179f16c62f8d673adc9e5ca28d561ff5
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Oct 18 16:46:15 2018 -0400
+
+    Control: Slats and Flaps now dependent hydraulics
+
+commit ebb508aec4baee38e07c6e42207e5dfde52f9aba
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 15 16:45:00 2018 -0400
+
+    Control: Rework trim system, fix bugs
+
+commit 568de68a8831659d7dd29a7fee90fd91fa9c181e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 14 11:21:51 2018 -0400
+
+    Sim: Add varients
+
+commit c1d0e51e1dc4d167c0304b198a657d6b0c4b0360
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 13 19:22:04 2018 -0400
+
+    Sim: Revision
+
+commit 8b82f55ddb12d97d0f535e2a48bbfe0d5a05129a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 13 19:21:45 2018 -0400
+
+    Sim: Improve the flight director
+
+commit e2b50462898bc8e75514087f90a425c3210c3890
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 13 15:53:45 2018 -0400
+
+    Sim: views bugfix -- I am stupid
+
+commit 274755354d979648d199751ec40cd8062e0756c2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 13 14:37:56 2018 -0400
+
+    Sim: View system major bugfix/overhaul
+
+commit c1c73a3d18b2865a8057a7e36e89eee61e97c683
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 8 13:00:27 2018 -0400
+
+    Engine: Fix overwrite of cmd-norm
+
+commit b6e3510ea4f26edfcdea3b576100dc37706f571b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 6 13:34:04 2018 -0400
+
+    System: Fix AFS not captured HDG properly
+
+commit aa562411b1c0a06e3a81d6b85327bffabcab9177
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Sep 29 20:24:25 2018 -0400
+
+    System: Fix nasal problems
+
+commit 4f8e4437d738794f9b6d3eb6ed24ef27a7660c60
+Merge: fd3f9a9 c1c87f7
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Sep 27 14:39:21 2018 -0400
+
+    Merge branch 'master' of github.com:it0uchpods/IDG-MD-11X
+
+commit fd3f9a961ecb6b43ca1a431cc1ca86af4832034a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Sep 27 14:39:08 2018 -0400
+
+    Sim: default radios
+
+commit c1c87f7ab93ad8d1f041ca4ccc8f0556ac101347
+Merge: 8970e0e 09f994d
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Wed Sep 12 15:38:49 2018 +0100
+
+    Merge pull request #2 from D-Sven/master
+    
+    Add Lufthansa blue (D-ALCB)
+
+commit 09f994db883c007e95adbf03e1ca13b08563a9ab
+Author: Sven Seipp <sven.seipp@freenet.de>
+Date:   Wed Sep 12 11:55:39 2018 +0200
+
+    Add Lufthansa blue (D-ALCB)
+
+commit 8970e0e12cfa7cd00a3bcf333182801609fb77d5
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Sep 10 20:07:58 2018 -0400
+
+    Control: Make Spoilers recordable by flight recorder
+
+commit b6ebf8351cb120cf32bab4b42b602e897a7d4a76
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 28 18:20:15 2018 -0400
+
+    DU: PFD Improvements
+
+commit a83d85bf2f2a5e17b836562b0f6a599b40da36fb
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Aug 25 19:04:41 2018 -0400
+
+    DU: Add new things to Canvas PFD, System: AP now requires IRS, and ATS requires engines on
+
+commit 7488d6798f96ffb35be2c1fa33137b247760d082
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Aug 24 15:09:55 2018 -0400
+
+    System: Fix APU startup not working due to oversight
+
+commit 1d3f9faaa56c1d17a881d9d88b6ed5324152c389
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Aug 24 13:06:07 2018 -0400
+
+    System: Fix Elec Battery logic, 3D: Fix APU lights bug
+
+commit fa909df4d32bb21f2d56af6009e6c9ad8bce69e8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Aug 24 09:39:16 2018 -0400
+
+    Sim: Add Autopush 1.0-rc2
+
+commit e64ff3f2e6f65dc59aee8044ca1010788a1232aa
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 21 21:03:42 2018 -0400
+
+    Sim: Fix conflicting message behavior
+
+commit e232af0babe7789173332bedec2c9dc2ed22ef1d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Aug 19 13:37:18 2018 -0400
+
+    Sim: Fix nose gear sinking below ground slightly
+
+commit b0364e4f5a3bbdf99625f4a5b30a93b6c5ee2733
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Aug 19 13:21:19 2018 -0400
+
+    3D: Fix MD-11 Passenger Pratt and Whitney wing discoloration
+
+commit 08895b6db1a920059c718a3a9946cd2a0970af6f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Aug 18 22:10:52 2018 -0400
+
+    Aero: Fix duplicate yaw due to yaw rate for some reason
+
+commit 93ffff139962112876dc580bf8c6c5135555ddb4
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Aug 18 13:41:06 2018 -0400
+
+    3D: Fix stupid animation
+
+commit 92ad1065932233093b431ccfdc9db439f7081f2a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 15 11:13:50 2018 -0400
+
+    Control: Minor fix
+
+commit 5c19cb4bb3d2eaa817d9e37291801c6d61b418b8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 15 10:46:49 2018 -0400
+
+    Control: Fix rudder pedals behavior
+
+commit 75c4e6fb1e1e4534f78605e118f3e142dce08581
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 15 00:43:09 2018 -0400
+
+    Control: Major improvements to LSAS, add optional RCWS system
+
+commit a7bcb26795fee56c3a9ffb30892f36aaf5d3467e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 14 20:42:38 2018 -0400
+
+    Control: Another LSAS bugfix
+
+commit e96746c693add6215153473115467e12142ad8c9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 14 20:37:08 2018 -0400
+
+    Control: LSAS bugfix
+
+commit c97768a771c27fb4ac269f8a5e1142b2a8e7dbd1
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 14 20:25:15 2018 -0400
+
+    System: Make fuel crossfeeding work properly
+
+commit 53d906065de6c49b0715675e6b9d3ca4c9699c9a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 14 19:17:23 2018 -0400
+
+    Sim: Add tags
+
+commit 4297464302c027b212c9edaece3e040100dee3d6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 14 19:02:06 2018 -0400
+
+    Sim: Update thumbnail
+
+commit 772db61a8f4e7d28f24d8d1e723ca3fd45c1d487
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 13 22:55:08 2018 -0400
+
+    System: Fix bugs in fuel system
+
+commit a2e26082bd5b16adff5584d551a71cb88d4d13f3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 13 22:41:37 2018 -0400
+
+    System: Add fuel tanks with Main and Aux tanks working, and transfer
+
+commit 6bca9b5cbd190462f0a618321a726096417e7d31
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 13 16:29:40 2018 -0400
+
+    System: IRS bugfix
+
+commit f3488775e4fd1dd7c371b256a85aa9871d719f07
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 13 14:38:44 2018 -0400
+
+    System: Add IRS system, Sim: Fix bug external power box handling
+
+commit c83fd91a27ff7720b5ac314d77c8aa10385da049
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Aug 12 23:29:04 2018 -0400
+
+    Debug: Now prints revision into console
+
+commit 9567fae02ce3ddf5ac90e609594c03ed42b63735
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Aug 12 19:23:52 2018 -0400
+
+    System: Improve performance of Canvas, and add DU Quality selection
+
+commit 5ce1f421225b1200cac3f7aef26d72a40e78d4ce
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Aug 12 17:59:44 2018 -0400
+
+    GIT: Remove unused png
+
+commit f5363f4270927c7fc9f43c1eb48fc60b968a9f31
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Aug 12 17:59:11 2018 -0400
+
+    3D: Add lights for Fuel panel on overhead
+
+commit 62219145d4f5496e435de3e7889906dcf191a116
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Aug 12 16:22:01 2018 -0400
+
+    Control: Fix typo in trim
+
+commit d217b041173b13888cb1f1567b2e64219f1b3c72
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Aug 12 15:48:34 2018 -0400
+
+    Control: Add proper deflections for ailerons and elevators
+
+commit 2741107930bba46d95c0bbace49649bacd2728e8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Aug 5 23:31:57 2018 -0400
+
+    Sim: ACCONFIG bugfix
+
+commit 43c73cc3882b199ebe4a4fa44ee4ec322779b560
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jul 25 18:00:27 2018 -0400
+
+    Control: Fix something that doesn't affect functionality
+
+commit 8cb983564d8037f853459c9ad6690a6a4580c276
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jul 25 16:39:19 2018 -0400
+
+    Control: AP bugfix
+
+commit 8203a2c041fe31ada7c1308a7c2658dd65b2dfbf
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jul 25 08:49:49 2018 -0400
+
+    Control: AP bugfix
+
+commit 4a2bcbf1c4ce0cee22bb216a9d33759714454214
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jul 25 08:38:14 2018 -0400
+
+    Control: AP bugfix
+
+commit b463d05dd846919cd48ca402ccaab40f94235c23
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jul 24 20:43:54 2018 -0400
+
+    Sim: ACCONFIG tweak
+
+commit 7d07d785b9dff2eb300a6e453a9ed2ec5a8900f1
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jul 24 20:33:06 2018 -0400
+
+    3D: Fix spoiler lever animation
+
+commit 7f2cc68e3c040bfdb320d709abe876106f976e18
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jul 24 20:14:56 2018 -0400
+
+    Sim: Major update to tons of stuff, see commit history
+
+commit 2da35ae25df19dbea1f0e804caecee0cd9411ebe
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jul 24 20:14:22 2018 -0400
+
+    Control: Update AFS altitude and heading control to V3.2, Aero: some fixes to drag
+
+commit 18a2edfe11bf64afaa1e11ffdd6f80e8a897db25
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jul 23 19:38:49 2018 -0400
+
+    Control: Some fixes, Aero: big improvmenets
+
+commit 84f3d0834d18b799a8200cbe8f0c6754ac50e319
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jul 22 22:20:54 2018 -0400
+
+    Control: WIP: Major rework of Flight Controls/Spoilers, Sim: Bugfixes
+
+commit 0db49dd69357fbeb2b68a41864fb3921370712a0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jul 22 15:13:25 2018 -0400
+
+    Sim: Bugfix for MD-10 loading
+
+commit 27405a11fdf9012f575f719d34d4264fa0de1ab2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jul 21 21:22:02 2018 -0400
+
+    Sim: Cleanup JSB
+
+commit c5fb2cd8942a6b6f53cd2f50e01ea96c23854adf
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jun 24 13:18:05 2018 -0400
+
+    Control: Fix Engine Reverser behavior, 3D: Fix cockpit reverse lever animation
+
+commit df64a32634085892ac8425364122746c47ba5c30
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jun 23 12:19:18 2018 -0400
+
+    3D: Fix missing pushback, enable the new model for it, Sim: adjust exterior default zoom
+
+commit 3b35f8d13a3dd82b84a9de1e55420458c2a9e9b4
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jun 22 13:36:28 2018 -0400
+
+    Control: Fix engine 3 not being set by 3 and 9 keys - thanks Charlie papa Alfa 144
+
+commit b42309dc55058f6ea0bd50f0abeeee43eb6afc1c
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jun 9 18:50:58 2018 -0400
+
+    Sim: Replay handler
+
+commit 51b905d0f5aadb5503ba24422f51eba03ac1459d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Jun 5 18:31:11 2018 -0400
+
+    System: Fix battery behavior when fully charged
+
+commit 0e2942c44439ef2a7e0d50f17d1590bb59398ce6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jun 4 22:24:09 2018 -0400
+
+    Sim: Add Minimum-FG-Version tag for QT Launcher
+
+commit 114b394da0a5d58f528d46848eb0935a1ed5491a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 28 19:21:12 2018 -0400
+
+    3D: New THA1975 livery for MD-11 GE by BOAC134
+
+commit 8697eac648808a25ac078ed1c0a6d2f33b4f4a46
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 28 12:48:09 2018 -0400
+
+    3D: New THA2005 livery for MD-11 GE
+
+commit 3f5d6a197818ba98b90334f526aaca82d0171ddd
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 28 10:02:14 2018 -0400
+
+    Control: Improve Yaw Damper
+
+commit ba1fc330547130f3c205ec2a4f1a936c20619e10
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 28 09:41:00 2018 -0400
+
+    Control: Improve Turn Coordinator
+
+commit 307589c38f8440fddf1a80a05c3642a27356301e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 28 08:34:23 2018 -0400
+
+    3D: Further improvementes by Zack (Zhuangt98)
+
+commit 0aa0121756c4de4f4e176c334da5a3e0dcb735a3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 27 22:50:02 2018 -0400
+
+    Control: clean up
+
+commit e1fecfa4f546a027fa04c38ebd882deff2772662
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 27 22:32:14 2018 -0400
+
+    Control: clean up
+
+commit 4d2ac1a32e98df5f981e1f72c2c6f45721f7f2e2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 27 09:51:26 2018 -0400
+
+    3D: Add new 3D models by Zack (Zhuangt98)
+
+commit a61e80e10338acb39677719663e1ba9ee290708a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri May 25 10:20:59 2018 -0400
+
+    Control: Fix mistake in ATS
+
+commit ba309f5abda1a8c5bd42bf651edc63846f293810
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed May 23 19:11:12 2018 -0400
+
+    Control: Give ATS a bit more authority
+
+commit 96100851f8d45e0f252a929b2b4e3a7a9db3b336
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed May 23 17:49:05 2018 -0400
+
+    Engine: New dynamic spoolup/down values, REQUIRES 2018.1.0 or later
+
+commit e6bd5903f7f199f9b66154308cb0847f62aee136
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed May 23 15:42:53 2018 -0400
+
+    Sim: Rename Skip ADIRS toggle
+
+commit 7052662df9e3aeaa2f61e9b5006823b886ec4eeb
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 21 17:34:36 2018 -0400
+
+    FGFS: New rating
+
+commit 508ab5a246d142d0e15f593ad582a5ec8ae828b5
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 21 15:55:10 2018 -0400
+
+    System: New wing views
+
+commit 37b8c854308d879ccc2516ae9b5acedf22910edf
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon May 21 15:34:58 2018 -0400
+
+    System: Add keyboard AP and ATHR disconnect
+
+commit 15c0f5e9eec20a21d19f845ff018464b0411c5a0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun May 20 22:53:54 2018 -0400
+
+    System: Bugfix in update dialog
+
+commit 5d40f3e9e344c29eb0415fb859054d1b11c29a06
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat May 19 12:24:27 2018 -0400
+
+    Systems: Add Engine start system! Manual start possible, Throw magicstartup into Rubbish Bin, implement proper panel states, Pack logic fixed
+
+commit fc6b410b92e9e284e3516729645942011800f369
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri May 18 18:55:12 2018 -0400
+
+    Systems: Ignition system and logic, Packs auto shutoff logic, Ingition/FADEC panel on overhead, and many bugfixes
+
+commit 8c8632ea471324ad3725a887d70751523b9725d6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri May 18 15:32:11 2018 -0400
+
+    GIT: Update issue template
+
+commit dc83d162f9ea8806fc2e97395edff1ec143aac06
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu May 17 10:21:05 2018 -0400
+
+    Systems: Fix charge/discharge offset values
+
+commit ecb9434ea3266a63f895eda7298c9f9f6dbf3190
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu May 17 00:35:44 2018 -0400
+
+    Systems: Overhaul Battery Charging logic (again)
+
+commit 332580cd093779d0007baacb31554ac13811f3d6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed May 16 23:23:09 2018 -0400
+
+    Systems: Some electrical fixes
+
+commit 4237c511051b5fba8c80af9f2f983f9cc16ccace
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed May 16 20:48:52 2018 -0400
+
+    Systems: Many electrical fixes, charging, etc
+
+commit 528279d40eaf768ceae7d2280e22b4637f1c6a7e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed May 16 18:38:24 2018 -0400
+
+    System: Various optimizations
+
+commit 5deaa5306b8768916c6fd79848ad15e3a196a384
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed May 16 18:18:07 2018 -0400
+
+    MD-11X: Add autobrakes, add new views (see help), other
+
+commit 6687c22c6df917dc7b18a05b34ce5f0e0a361e18
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat May 5 13:08:07 2018 -0400
+
+    System: Update ACCONFIG to V1.5.0
+
+commit f52567da240a573ccf355ea660de066352973628
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Apr 28 11:23:06 2018 -0400
+
+    FADEC: Fix keys not controlling Engine 3
+
+commit d3cbbf0a9020121f1e71bdc9e8cc5dabcacf3aa8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Apr 27 12:30:46 2018 -0400
+
+    Control: Move LSAS to JSBsim
+
+commit 0d4e2ec851dd432de906593b8828cad01f3ed11d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Apr 27 10:55:51 2018 -0400
+
+    FDE: Update AeroRP
+
+commit 4993cda7690fae71d9181de743de9ccdb74468fa
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Apr 27 10:52:07 2018 -0400
+
+    Control: Fix AP don't control spoilers, add view shaking/exterior meters view
+
+commit 173d432fb06211b59fb3cf6d006584e0315428f0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Apr 24 14:01:41 2018 -0400
+
+    Control: Add new FCS system, Yaw Damper, and add Keyboard mode
+
+commit 3b70a0cb7454c31af52f0c799202e30ec2f6f2fe
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Apr 24 12:49:18 2018 -0400
+
+    MD-11X: Update IDG Aircraft Config System
+
+commit 295b084752ead2dc3e74d0ec989893cc0e5311da
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Apr 9 15:38:16 2018 -0400
+
+    UI: Add IT-GUI style for cycle-gui
+
+commit 69a0507c2972acfc7fed79c65c01c5053328dcc6
+Merge: 04b5c51 6bad14c
+Author: omega13a <omega13a@yahoo.com>
+Date:   Mon Mar 5 14:20:40 2018 -0800
+
+    Merge https://github.com/it0uchpods/IDG-MD-11X
+
+commit 6bad14c74d8365b45c9454d569d143d031d24e09
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Mon Mar 5 10:55:09 2018 +0000
+
+    adjust forward strobe angles
+
+commit d779a5caa5b4e262f25829081c0d382633f6fc9f
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Mon Mar 5 10:47:30 2018 +0000
+
+    add remb / non-als controller for strobes
+
+commit d058964a7f92baa8680d60d7a67371e41f50caf1
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Mon Mar 5 10:45:53 2018 +0000
+
+    add beacon light
+
+commit fe90d917e14cb6599efcf6d90b11773e22234c03
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Mon Mar 5 10:33:32 2018 +0000
+
+    add rear strobes
+
+commit 04b5c51f652ac8f024478539e115f2d23b526e6a
+Merge: d967c9b dbf00a3
+Author: Brandon Amaro <omega13a@fedtrek.com>
+Date:   Tue Feb 20 13:34:23 2018 -0800
+
+    Merge pull request #1 from it0uchpods/master
+    
+    syncing repos
+
+commit dbf00a3a7678987032e599d862c3a1adb2027752
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Feb 20 20:58:48 2018 +0000
+
+    add strobes and rear nav
+
+commit 206211603ff9fa0b242ce3a9a7fa621100e2d870
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Mon Feb 19 22:22:07 2018 +0000
+
+    make nav lights bigger, attempt to make green nav more blue. Please review: compare to real life footage of MD-11 green nav!
+
+commit 019008f8c36ccd4624c47df9750ba3f6965787b2
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Mon Feb 19 22:12:31 2018 +0000
+
+    Add procedural ALS lights to MD-11, and enable old lights including Rembrandt lights. Also, ALS landing light enabled
+
+commit d967c9b42f2817098504ad4d19df3ec33520942f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Feb 14 21:02:57 2018 -0500
+
+    MD-11X: Aero update
+
+commit aedcf5169c8e0ac43a8bbbdba2a027132b256265
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Feb 7 17:15:56 2018 -0500
+
+    MD-11X: Fix autospoilers inhibiting manual spoilers
+
+commit b6447b30643168dab1750667632686a7ee081768
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Feb 7 10:17:34 2018 -0500
+
+    MD-11X: Fix overhead view
+
+commit 38444d0e3cdeb78e4824e44c61697e94ffb7271d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Feb 6 19:53:17 2018 -0500
+
+    MD-11X: Update Error system
+
+commit 301526305d19287e7ad41cfefddfa52ca8897c26
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Feb 6 13:23:26 2018 -0500
+
+    MD-11X: Aero update
+
+commit 0cba5ff84d113bac7e40a91ae749ac675c2b7f36
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jan 31 16:00:49 2018 -0500
+
+    MD-11X: Fix PFD HDG Sel bug
+
+commit eeb1f5edec18dc8fb530f879419c9989462e2219
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jan 31 15:53:24 2018 -0500
+
+    MD-11X: Update idle limit
+
+commit c129729dd6c91bbe4a0b7ce5c8b52b531c55d015
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jan 31 15:43:14 2018 -0500
+
+    MD-11X: Fix PW EGT
+
+commit 97995fd729226e595b05c0a6f9901832d602d089
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Jan 29 23:33:41 2018 -0500
+
+    MD-11X: Fix PFD reading white NAV instead of pink NAV1 or pink NAV2
+
+commit 3b4fdce6a920d35d24b076aae7db36b81cca7d8a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 26 23:38:35 2018 -0500
+
+    MD-11X: Fix some users getting JSBsim error on startup -- thanks SWAMP!
+
+commit 577256ad81d70852112536c8322ccff799fd5fd4
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 26 20:21:39 2018 -0500
+
+    MD-11X: Fix FCS/Aero bug, Change AFS to use GPS for vert speed
+
+commit 51e76f06e4ed6df1274284e3576369cbeb3ababe
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jan 25 15:14:32 2018 -0500
+
+    MD-11X: README
+
+commit c19134be6cf40f34b4e30389d31981ee2702e041
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jan 25 13:57:44 2018 -0500
+
+    MD-11X: Fix QNH HPA bug
+
+commit 464a5da15e234376577ae662abac8feca62652ec
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 21 22:24:29 2018 -0500
+
+    MD-11X: Fix altimeter knob
+
+commit b4c8bd1f9f22fc8fd654bd7df9a679aca4d5b4d0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 21 21:52:17 2018 -0500
+
+    MD-11X: Add RA to Canvas PFD, add PW varients and PW EPR EAD
+
+commit ac1d0831e26bbf15bd6f4c4d48cd5ad06cf17ba7
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 21 13:23:22 2018 -0500
+
+    MD-11X: Change default fuel
+
+commit c6a3c61842da94e43e7148b40fcda3a6f03ffeab
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 21 13:22:35 2018 -0500
+
+    MD-11X: Canvas PFDs now default and many improvements
+
+commit 56686f4526b83c2f58f10d5e1d7d88a23e9bed30
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Jan 21 01:11:53 2018 -0500
+
+    MD-11X: Add AI to Canvas PFD, and bank index
+
+commit 895d2f8d931320b5c81f84fee8c09a09643a1f98
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 20 23:54:51 2018 -0500
+
+    MD-11X: Correct Thrust limits, and Canvas PFD altitude tens
+
+commit 7f11ffdb9d369da7acd0a7e309583c0ddd526c49
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 20 23:43:04 2018 -0500
+
+    MD-11X: Canvas PFD SVG bugfix
+
+commit abebab1723816ea0391006608f68d2dbbefa32de
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 20 23:34:05 2018 -0500
+
+    MD-11X: Major Canvas PFD, AFS, and other updates
+
+commit 0b9a9a8c35402acfd094f64840cf4376fbe2b15a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 20 12:42:06 2018 -0500
+
+    MD-11X: More Canvas PFD Work
+
+commit c47006835999434e84034577adf636eac2e38707
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Jan 20 09:03:14 2018 -0500
+
+    MD-11X: Canvas PFD work
+
+commit 29f136ae3781c808068776304142fe8365330d50
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 19 16:11:07 2018 -0500
+
+    MD-11X: Start Canvas PFD, Major AFS fixes
+
+commit bbaed7b471090c2ed812dce11c90b0f4b3a77d73
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 19 14:49:02 2018 -0500
+
+    MD-11X: Roll major improvements, Pitch Improvements
+
+commit 375168c227a8d373320497d7ae06418254bca76e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Jan 19 14:19:42 2018 -0500
+
+    MD-11X: Roll Gearing
+
+commit 05fa0db1c08bf7d65cdacb52c0217af071e9a9b0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Jan 18 21:44:31 2018 -0500
+
+    MD-11X: Completely overhaul FDM, FCS, Hydraulics. Needs testing
+
+commit d64b5985cfc155f0b36725643db39d54bc7450f1
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Jan 10 13:44:17 2018 -0500
+
+    MD-11X: Fix Slat Drag using Flap property in FDE
+
+commit c7082397446ee2bbae2304729472a9ed301cc318
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Dec 31 09:43:05 2017 -0500
+
+    MD-11X: Remove redundent Canvas code
+
+commit 8f5edf6322fe55d0e735ee03571cca85773f96be
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Dec 24 12:35:52 2017 -0500
+
+    MD-11X: Remove autocoordination handler for now
+
+commit 46aca6095f52dff3c29e06a1a87c89d7a1746c70
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Dec 21 14:09:24 2017 -0500
+
+    MD-11X: AFS: Fix missing drift-angle calculator, causing NAV to do bad tracking in crosswinds
+
+commit bdde80a9282beeedd9bfd6e56499ffe7ebcc62ed
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Dec 21 10:08:32 2017 -0500
+
+    MD-11X: AFS: Rework NAV, LOC, and G/S arm system
+
+commit 3d53f705289de41ea37ac5842240ff0397451d6d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Dec 20 15:26:08 2017 -0500
+
+    MD-11X: Fix FMGC Nasal error
+
+commit 930351ba7d0eb24146591d148fd738380692a1c8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Dec 17 18:18:39 2017 -0500
+
+    MD-11X: Major autopilot improvements
+
+commit 47da1bc43bf8e8f22f4cd6b68075fdef522eb127
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Dec 17 14:18:44 2017 -0500
+
+    MD-11X: Auto coordination handler
+
+commit 7d75f470e199711853513c90d31695c4aa8d9ce8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 16 20:49:31 2017 -0500
+
+    A3XX: Fix AFS NAV mode bugs
+
+commit f505edde78e8c0a452a2ebf1163597110556f678
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Dec 15 23:05:01 2017 -0500
+
+    MD-11X: Fix some AFS bugs
+
+commit 2286bf1e67fedc07fba1ed448a114fa1a12d2769
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Dec 14 21:31:10 2017 -0500
+
+    MD-11X: Improve NAV Mode
+
+commit f58f402b38abaafa9a0baf3eb51627c6f744f118
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 9 17:48:31 2017 -0500
+
+    MD-11X: Improve drag
+
+commit f46401ed8bb3f9cbf4d3a23d3291d27c32708a0e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Dec 9 17:47:01 2017 -0500
+
+    MD-11X: Improve drag
+
+commit 92b2941d0951c87fe2c2910f75b776103bcc58ca
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Dec 1 18:52:29 2017 -0500
+
+    MD-11X: Some LSAS tweaks
+
+commit b67e32ce1975d2a303a80bcbec6504cadf80720d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Dec 1 10:47:38 2017 -0500
+
+    MD-11X: Fix LSAS trimming
+
+commit 8bd917c90f276174218507c056531ed198281d3f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Nov 29 12:06:03 2017 -0500
+
+    MD-11X: Improve Mach by pitch, Autothrottle
+
+commit c266b815c55ec2d1869f08c2d6b6f41ca1f362f2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Nov 27 10:18:10 2017 -0500
+
+    MD-11X: Update to AFS
+
+commit 81e6bb11de8854f9493e1e1b673356a2737e1769
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Nov 22 20:40:21 2017 -0500
+
+    MD-11X: Major Flight Control improvements
+
+commit 6ca05c6e5ddc8ac08024da9b131b9404a6eafb88
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 18 22:36:45 2017 -0500
+
+    MD-11X: Fix mismatch and update dialog colors
+
+commit ee0f9380356d17ac336d7c3cf9fe70144a975356
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 18 20:23:19 2017 -0500
+
+    MD-11X: Rudder FDE correction
+
+commit 5f6eccd2efd43d7b6248bdffadab454711436cda
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 18 18:33:34 2017 -0500
+
+    MD-11X: Update IT-GUI
+
+commit cb2b29847f0c00948db9183a913286b230884b9c
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 18 18:13:53 2017 -0500
+
+    MD-11X: Switch to IT-GUI style
+
+commit b15b594e332fd51daf25a97dfc10d03d474bae68
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 18 15:43:00 2017 -0500
+
+    MD-11X: NAV Advance Improve
+
+commit 2fba73865e60116e305af649e6a3484810415316
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 18 12:13:00 2017 -0500
+
+    MD-11X: AFS bugfix
+
+commit 11c77d30377a2828f14f09d75df93b4ada4632ec
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 18 08:28:03 2017 -0500
+
+    MD-11X: Fix NAV mode not tracking sometimes
+
+commit 49c24985d8e4e7221b6f2849014f011fe20afd14
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Nov 17 23:26:18 2017 -0500
+
+    MD-11X: Revision 204
+
+commit 8947b83e6923b0ef5406b0f1e943330f241b6c47
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Nov 17 23:25:59 2017 -0500
+
+    MD-11X: Add better NAV system and very basic predictive turning
+
+commit 219206dd822399b29d1bbaf6a6411f741e927937
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Nov 17 20:30:40 2017 -0500
+
+    Revert "MD-11X: AFS: Add proper NAV tracking with better waypoint turning/etc"
+    
+    This reverts commit 68edc7d020d4718ccff5d5f656a4931c98f29e51.
+
+commit 68edc7d020d4718ccff5d5f656a4931c98f29e51
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Nov 17 20:08:58 2017 -0500
+
+    MD-11X: AFS: Add proper NAV tracking with better waypoint turning/etc
+
+commit 967808045b5247b69769c0fc0dadf8c612d167cb
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Nov 16 16:37:53 2017 -0500
+
+    MD-11X: AFS Update to correct incorrect TRK behavior
+
+commit 534d09458c26e89eef1d50485f2297052ad763a2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Nov 16 15:02:07 2017 -0500
+
+    MD-11X: Update
+
+commit 7d00daa69aa42ab2c7e55e2f039c1680d3a2da9b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Nov 14 22:33:36 2017 -0500
+
+    MD-11X: Various improvements: Temp controls, more pneu controls
+
+commit 36242ace183237df9fca048f2e692353a41e474f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Nov 13 21:52:22 2017 -0500
+
+    MD-11X: Fix case issue
+
+commit bd06214ea30a0bc70ce652a626bb07ea36663c2a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Nov 13 18:00:10 2017 -0500
+
+    MD-11X: Fix thrust retard altitude
+
+commit 8509dd47f747e49b520ff3df9e441f9904f0fb68
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Nov 13 17:36:43 2017 -0500
+
+    MD-11X: Fix error with aileron crosswind
+
+commit 580a6cb12f0e4497064a11ddfc9353dd1d535e90
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Nov 13 12:26:35 2017 -0500
+
+    MD-11X: Crossport AFS ILS bugfix from Airbus
+
+commit 7846b77c3155d56bd08384875e3d187d17bed0b3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Nov 12 12:51:53 2017 -0500
+
+    MD-11X: Fix update nasal error in MD-10 Addon
+
+commit 5c6a49a6e67c06e122a9a4b2a3d05d5b1ce5f77d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 11 22:46:40 2017 -0500
+
+    MD-11X: Another small bugfix
+
+commit 37e4c5c1a112fca0f54d87c975751dcc41f6ad79
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 11 22:37:53 2017 -0500
+
+    MD-11X: Another small bugfix
+
+commit cff344c4795ba3c23dc322ea2f8357d65f1cff8e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 11 22:31:45 2017 -0500
+
+    MD-11X: Minor bugfix
+
+commit 25f83e1c2975b022827e7f2497b1f11761e12e7a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 11 22:24:36 2017 -0500
+
+    MD-11X: Fix ATS RETARD
+
+commit 7e91af39581f0d36e0059b1b32347b2b54d50da3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 11 22:06:37 2017 -0500
+
+    MD-11X: Add update system
+
+commit 958edfb1ce90ed5a9bce32b2b67df9c1131cd28a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Nov 4 21:35:20 2017 -0400
+
+    MD-11X: FD Pitch in V/S mode better
+
+commit 1905b115a07ab7e6225fb25c6b408b1a2525cf1b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Nov 2 17:09:10 2017 -0400
+
+    MD-11X: Fix aileron/rudder bug, and issue with resetting flight controls
+
+commit c41faf5d363a832a8b66e1992272286ea80f72cc
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 30 15:41:30 2017 -0400
+
+    MD-11X: Formatting
+
+commit 8ea234b23a3d067a379bea9e0e2cfebd7e68389a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 29 12:25:02 2017 -0400
+
+    MD-11X: Prepare
+
+commit f395f7af85abe632c80756e1e45899dc2ea4453c
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 28 14:13:57 2017 -0400
+
+    MD-11X: Rollout mode in autoland
+
+commit bb5fb0adf112e6c1a33af443b40f8fb1bc797625
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 28 14:03:34 2017 -0400
+
+    MD-11X: Rollout mode in autoland
+
+commit 4d38a1c656132818310df3a4a21857582282b49d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 28 13:49:10 2017 -0400
+
+    MD-11X: Fix Pneumatics FLOW light bug
+
+commit 5ab6edd596977823c48384625a711583bb6d66d7
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 28 13:33:38 2017 -0400
+
+    MD-11X: Pneumatic, and FCS updates
+
+commit b23c2eada9823d34e95436ab87ca2cf48a842eb8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Oct 26 15:57:21 2017 -0400
+
+    MD-11X: Further Pneumatics work
+
+commit 312512dd4c818fe77133291e4d7cc6fc5c60e14e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Oct 26 13:58:46 2017 -0400
+
+    MD-11X: Further Pneumatic system work
+
+commit 0960cddea2f277dd0a67f94c1e62b83a02e6c0cc
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 23 14:11:13 2017 -0400
+
+    MD-11X: WIP Pneumatic
+
+commit 091c53e38b306fde3f1486602fa3d82f66eb2118
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 20 10:50:47 2017 -0400
+
+    MD-11X: FMGC Pitch: Fix autopilot flight directors overcommanding in some modes, causing silly AP behavior when engaged
+
+commit e6a86d71a4deba807fdf961f989e767e1a214925
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Oct 18 22:45:50 2017 -0400
+
+    MD-11X: More formatting
+
+commit 645b1e2c1881ef82729412e2e0c2b5d87864c825
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Oct 18 22:17:47 2017 -0400
+
+    MD-11X: Fix path-error
+
+commit d937403b8ec631e6164a193be55d4527255fc609
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Oct 18 22:12:16 2017 -0400
+
+    MD-11X: Formatting
+
+commit 3785dd126be741ca367f8b7101182b16997e47a2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Oct 17 20:19:21 2017 -0400
+
+    MD-11X: AFS Bugfix
+
+commit 9d296585d43353a19af9fa8ec764aa3c82b6abdc
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Oct 17 16:25:56 2017 -0400
+
+    MD-11X: FDM Improvement
+
+commit e11278f91bbe12f331ab59dfe06a9a3aaec9cfaf
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Oct 17 12:36:09 2017 +0100
+
+    MD-XXX: Fix the CONTRIBUTING file
+
+commit bf71c159af4e79d1f29ec4fb36b2c9fccd5b4307
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 16 18:12:38 2017 -0400
+
+    Update CONTRIBUTING.md
+
+commit ace3a91341de3908a9f8a6536a0f8e45819f04f7
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 16 18:10:02 2017 -0400
+
+    Create CONTRIBUTING.md and PULL_REQUEST_TEMPLATE.md
+
+commit 7c4034c9d5e918c5a08d64618c28e5e00c1e8106
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 16 17:30:42 2017 -0400
+
+    Punctuation
+
+commit 579518a1a4bb0d87da89bceb665aadb82a0940e6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 16 17:27:30 2017 -0400
+
+    Create ISSUE-TEMPLATE.md
+
+commit 7d26c82be3c6d88282529d976aa38fa9ea7ffffb
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 16 17:07:58 2017 -0400
+
+    MD-11X: OH Panel Improvements
+
+commit c31839fe9106695d9d3eaa3afebc6f0316934493
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 15 22:56:20 2017 -0400
+
+    MD-11X: Use fake engines to send new N1 data over MP
+
+commit 3a4add3043ca7886f9f763570cd564894a9b2ed2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 15 20:23:49 2017 -0400
+
+    MD-11X: Fix pushback
+
+commit 2f148f23b0443382cb1d25823fdbd83fccc38c9a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 15 19:47:36 2017 -0400
+
+    MD-11X: Formatting
+
+commit dd02c173d996b225eca2e0d62167216d9dfb5b73
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 15 16:46:18 2017 -0400
+
+    MD-11X: Fix engine animation mistake
+
+commit 24900b46f998444aa7b290d29d7dea5f279daf29
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 15 16:43:22 2017 -0400
+
+    MD-11X: Flight Recorder fixed
+
+commit 7e4233a8bcf33ef238c34afdc056631a6a0b2d58
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 15 16:09:54 2017 -0400
+
+    MD-11X: FADEC Improvements, simulate N1/N2, add Richard's superfast startup system
+
+commit ee0e367a052344862b0303f9c349e5e9443dbda7
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 13 10:58:41 2017 -0400
+
+    MD-11X: Further overhead 3D improvements
+
+commit 94f313e626cf1217a68877bccc3ede20d19e2b5f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Oct 11 12:53:43 2017 -0400
+
+    MD-11X: Overhead 3D improvements
+
+commit 6e1a2a26c83ee95a10705ea443c77b38477c90e0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Oct 11 12:14:16 2017 -0400
+
+    MD-11X: Fix BAT Bus Off light not matching DCBAT Bus status
+
+commit d9fa48ad13d8cb4f821043e7e817b46a3d19c734
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Oct 11 12:11:14 2017 -0400
+
+    MD-11X: Bat bus can now be powered by DCGndSvc
+
+commit 5026f5cdb0e89288b7a6fd64bdaff32b9cbf3737
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 8 20:01:12 2017 -0400
+
+    MD-11X: Pitch and Yaw fixes
+
+commit 0752ac4083ad18ed7adbb284707791d962cd17b8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 8 19:51:38 2017 -0400
+
+    MD-11X: FDM Bugfix
+
+commit a9c3b2643a909ac48384e49dcd362f60e66df36b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 8 18:41:57 2017 -0400
+
+    MD-11X: Some wording
+
+commit 5c5872b2c8c9eab9f61caa6022e6dcdd81dd1b92
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 8 18:12:31 2017 -0400
+
+    MD-11X: Flight control improvements, aileron droop (thx pinto)
+
+commit 675e206859eb56f49bba7b595bc8cd95a5e65864
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 8 09:19:05 2017 -0400
+
+    MD-11X: Prepare for aileron droop
+
+commit 868eff50ba6744aa5b0df2d841916de0b6e86cc9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 8 09:09:57 2017 -0400
+
+    MD-11X: Further FDE Improvements
+
+commit ca391199cf28ac65485a01db04142822786adbcb
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Oct 7 16:39:57 2017 -0400
+
+    MD-11X: Major FDM Improvements
+
+commit 3e67d59aefbda01fdebbb775db4e19daa29aa75b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 6 16:48:55 2017 -0400
+
+    MD-11X: FDM fixing
+
+commit ff1ecbbd6f44cce36bdde0be1dafbb698c17f727
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 6 15:59:01 2017 -0400
+
+    MD-11X: FADEC Improved
+
+commit e547e0e2300ea617a24a90b6dd975e6c9ba9ab62
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 6 15:08:23 2017 -0400
+
+    MD-11X: Magic startup, more OH work
+
+commit 844a95fcf2295d87ebd49ec0437e66dad9e8be64
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 6 10:31:12 2017 -0400
+
+    MD-11X: More OH work
+
+commit 7e3d30a5d0ed18ed10f92465f0b1b630423bb4e6
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 6 10:06:03 2017 -0400
+
+    MD-11X: Fix Electrical OH bug, add extremely basic APU bleed
+
+commit 4f50e497d5e09937ba006ffed1465a22f71266d0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Oct 6 00:09:05 2017 -0400
+
+    MD-11X: Now requires 2017.3.0 or higher
+
+commit 7fed0501a385865e2c9468969a524e00fdfd10f4
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Oct 5 23:38:40 2017 -0400
+
+    MD-11: Bugfix charging logic
+
+commit b6836a48d06a704d873ab61922beb594a9d84414
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Oct 5 22:19:59 2017 -0400
+
+    MD-11X: New Electrical system, OH fixes, other fixes
+
+commit ab2b6506991b785f2b5ed2b35d1b32cebcda1b7d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Oct 5 13:32:34 2017 -0400
+
+    MD-11X: Major FDM improvements
+
+commit d0c9eac9c5247c1ad6907e4396eee69d0fcd711a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 2 23:18:24 2017 -0400
+
+    MD-11X: AP bugfix
+
+commit 88c8e87ee820c7985b1c99bdb9d4c6250eeed84f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Oct 2 16:11:18 2017 -0400
+
+    MD-11X: Fix missing Utilities menu on Mac
+
+commit 025453e7d4de5f815e6e4e2fa9f25b4393837cdf
+Merge: e8e2f09 4997824
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 1 16:26:18 2017 -0400
+
+    Merge branch 'master' of 10.0.0.139:it0uchpods/IDG-MD-11X
+
+commit e8e2f091a165ef80708dfc44a872577ae4fd086b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Oct 1 16:25:56 2017 -0400
+
+    MD-11X: Update hackCanvas
+
+commit 49978249b96a17af2c7672d183f8a110deb88245
+Merge: 12c6b2a cc4d965
+Author: Wouter Schwehm <wouter.schwehm@gmail.com>
+Date:   Tue Sep 26 23:04:19 2017 +0200
+
+    Merge branch 'master' of http://itpns.ddns.net:3000/it0uchpods/IDG-MD-11X
+
+commit 12c6b2abdebd574c36ef9e1b8ecfd0dff20a5c80
+Author: Wouter Schwehm <wouter.schwehm@gmail.com>
+Date:   Tue Sep 26 23:03:38 2017 +0200
+
+    reduce thumbnail
+
+commit cc4d9657ac07393fea94939c02f15a579b8624f2
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Sep 25 19:52:56 2017 -0400
+
+    IDG MD-11X Professional Pre V1.0
+
+commit 2182db77b10f86e1db2a60b9e454f17c4983a470
+Merge: 001430a 1bad242
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Sep 24 10:16:46 2017 -0400
+
+    Merge branch 'master' of 10.0.0.139:it0uchpods/IDG-MD-11X
+
+commit 001430a41f145437fc8be647e155f2862d0215e1
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Sep 24 10:16:23 2017 -0400
+
+    MD-11X: Canvas EAD Performance Improvements
+
+commit 1bad242b4e5796acc5f8f4e1ed4ccf46f14d1614
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Sep 18 13:06:59 2017 -0400
+
+    MD-11X: README
+
+commit 6f432efbf66bc827cf775ed63fcb5a111b64bb7a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Sep 18 13:00:33 2017 -0400
+
+    MD-11X: README
+
+commit 435d896d1775bb88341fb77592bed2bbf5730997
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Sep 17 13:52:25 2017 -0400
+
+    MD-11: Rename to IDG-MD-11X
+
+commit f337c1d651c92c55be7c562cb2234323cacbbfed
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Sep 17 09:42:30 2017 -0400
+
+    MD-11: Improve FDM
+
+commit 98060f9ab6ebc5c92cd0579c626bfcbccc5abc8b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Sep 10 16:09:04 2017 -0400
+
+    MD-11: WORDS
+
+commit 0ca9b6dac5f091c554b55de8ed540512641afe91
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Sep 7 17:56:52 2017 -0400
+
+    MD-11: Improve FDM, other
+
+commit 44cd117140d1ed267a67dab10ec1017ac2f6d39b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Sep 6 16:18:56 2017 -0400
+
+    MD-11: Finish OH lights for elec
+
+commit c15942a6a098c6ed08467e0c3e94bcea0f0cf216
+Merge: 9bd044a 92f81c0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Sep 6 14:01:48 2017 -0400
+
+    Merge branch 'master' of 10.0.0.139:it0uchpods/MD-11Family
+
+commit 9bd044a4b7441f965dad97f28f6bb8e2cf7baa0a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Sep 6 14:01:37 2017 -0400
+
+    MD-11: Fix Speed Smoothing issues
+
+commit 92f81c0ee956596a71ccdf873fbf5a06bc4ba450
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Sep 5 20:49:08 2017 +0100
+
+    bugfix
+
+commit da9adf35ec7e4f6efadfd1d2a3d08fc10c71e3fc
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Sep 5 15:32:51 2017 -0400
+
+    MD-11: Remove some shit
+
+commit 5cc48c7c7e129dd89f335a118912240dcb810afa
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Sep 5 15:26:34 2017 -0400
+
+    MD-11: APU stuff
+
+commit 26a8c0f8beb91f1a724bc7d14ac06685878e280c
+Merge: fcfbf94 ae1d15a
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Sep 5 15:22:46 2017 -0400
+
+    Merge branch 'master' of 10.0.0.139:it0uchpods/MD-11Family
+
+commit fcfbf94c3bb1597f8dcacb95629dc5098d155fa9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Sep 5 15:22:42 2017 -0400
+
+    MD-11: Overhead update
+
+commit ae1d15ae1aadc7e1b93220eb17f2cc43448dee92
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Sep 5 18:47:17 2017 +0100
+
+    IRS update
+
+commit 2dec7f3b9d95d27df24a7c40c916b58a60a29370
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Sep 5 18:15:31 2017 +0100
+
+    add (commented out) electrical dependancy on APU startup
+
+commit ae59373e658c9635a6194ac4e813346dfcbe8175
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Sep 5 18:05:54 2017 +0100
+
+    disable apu oil consumption, leave apu oil consumption on startup, since it broke the framerate
+
+commit 4761fed64f4f377d6f6d725e3ffaddd2ce74e4f9
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Sep 5 17:34:13 2017 +0100
+
+    APU: use math.rand and add oil consumption / oil drop on startup
+
+commit 2dd2f16031477d8f742d11c4d504df2e2d81bdc0
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Mon Sep 4 18:31:57 2017 +0100
+
+    hook up IRS. Needs electrical to be finished for it to work
+
+commit 82d0aa0921cca8e918f1ee45e2464a3eb5481e86
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Mon Sep 4 17:59:51 2017 +0100
+
+    major bugfix
+
+commit 9a06ad74b5c78cbc63925a30d943d84e9ec59505
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Mon Sep 4 17:53:48 2017 +0100
+
+    IRS update
+
+commit 3bd9c3b5dc2ec289e3ad52391ebcfcd78673b81b
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Mon Sep 4 17:47:30 2017 +0100
+
+    add modified IRS system, not hooked up yet
+
+commit 4f83bd75be6321db6085284da34513d7fb028164
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Sep 3 23:41:07 2017 -0400
+
+    MD-11: Update and fix ATS
+
+commit 6cdef4bdfc8f64b6e7d8e240a39c12663369e16f
+Merge: c736c9f d14c6ee
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Sep 3 12:06:04 2017 -0400
+
+    Merge branch 'master' of 10.0.0.139:it0uchpods/MD-11Family
+
+commit c736c9f994aad9247a8028739d311177f1c1f650
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Sep 3 12:05:56 2017 -0400
+
+    MD-11: Some weird merge thing?
+
+commit 5b331c4d5f3ebf67dc0bfec26f7df0d0d2be6043
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Sep 3 12:04:36 2017 -0400
+
+    MD-11: Various fixes for AFS, FADEC, EAD, and LSAS
+
+commit d14c6ee8c2aaa2c59a803c3069c6ab5801d64046
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Sep 2 13:59:29 2017 -0400
+
+    MD-11: AFS Update: all speed by pitch modes now follow FCP, even T/O CLAMP
+
+commit 42884e4ad249814dae26267d258dd0f049320ffc
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Sep 2 13:23:12 2017 -0400
+
+    MD-11: WIP Electrical update
+
+commit cedb1cdc548e50682c6bb5136b578b1485f09178
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Aug 31 18:37:13 2017 -0400
+
+    MD-11: Begin Electrical, Add Select Manual light to OH
+
+commit 728234adca7787455c25fc5ce14649686ceba47e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Aug 31 16:23:02 2017 -0400
+
+    MD-11: Fix AutoSpeedBrake not retracted
+
+commit 737744a54609dadc6be7cdfd5c750263876196c0
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 30 23:38:52 2017 -0400
+
+    MD-11: AutoSpeedBrake update
+
+commit 08b273fcab6b1887745407f9cfe88c09543a0b41
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 30 23:33:59 2017 -0400
+
+    MD-11: AutoSpeedBrake update
+
+commit 07241755d2f7a0570f5b54a34771537ae8531d61
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 30 23:00:18 2017 -0400
+
+    MD-11: Add Slats to Aileron Lockout logic
+
+commit bd392635bcd7cb8dcd1d3e2ebee4e7b2b2f768ab
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 30 22:42:40 2017 -0400
+
+    MD-11: Fix Roll Pointer on PFD
+
+commit 87a03cae055d612eaf0fcb804348dec6b5d94b2f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 30 19:08:29 2017 -0400
+
+    MD-11: Improve autoland
+
+commit f8ba6bd03eaaed7457b2affbc247f79ccf3bc8ea
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 30 15:27:24 2017 -0400
+
+    MD-11: Improve Roll/Pitch Aero, Fix PFD issue
+
+commit 710df82548b167cd8fe5ec0c8e0ffbcb5e1ffd8d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 30 15:17:23 2017 -0400
+
+    MD-11: Fix AutoSpeedBrake, Animate Pedestal SpeedBrake lever, Fix Reverse way too strong
+
+commit 84bd13fb0af22bc04bf6e62148459f94474485bc
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 30 14:45:31 2017 -0400
+
+    MD-11: FADEC: Improved, round thrust limits, Update engine parameters
+
+commit da929fed65866f16968a687a6a4a64daa44b40e8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 30 14:24:47 2017 -0400
+
+    MD-11: Add Thrust Limit in FADEC Manual, add Idle Limit (not working yet)
+
+commit 4bf0021b4578e5c988189d9baa67d8252a7274d8
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 22:07:30 2017 -0400
+
+    MD-11: Fix elevator animation
+
+commit 188dc75664c31a7858e8a405213d85500ccde888
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 20:04:19 2017 -0400
+
+    MD-11: Fix something
+
+commit 761433fb6fe3185605bbadf827ad474c3ed9a411
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 18:49:11 2017 -0400
+
+    MD-11: some fxing
+
+commit b7be8879872326094d9f4188d50a46b10c516bfe
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 13:30:57 2017 -0400
+
+    MD-11: Update README
+
+commit 06532524beeb98223eeafa3c3e2ee9ac11d00ac5
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 12:40:29 2017 -0400
+
+    MD-11: Fix gears below ground
+
+commit 156eef915de880c485a591dca7ff55416b910c70
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 11:31:51 2017 -0400
+
+    MD-11: Fix Left Wingflex
+
+commit d53813ec27b8ac04abf1c7b30793efd525c4b09f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 10:56:13 2017 -0400
+
+    MD-11: Feedback Elevator to LSAS when disabled
+
+commit 79753cb3a1fd233f6a27d9defca6ee9bab23d931
+Merge: b2815dc 9432dda
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 10:26:52 2017 -0400
+
+    Merge branch 'master' of 10.0.0.139:it0uchpods/MD-11Family
+
+commit b2815dc14ba642ea984f67880d0bed2d539adc08
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 10:26:44 2017 -0400
+
+    MD-11: Major Update: New CG/AERORP, Better AFS Logic, Thrust Limit System and New A/THR, better Autoland
+
+commit 9432dda35a342b2e0f7a0ffa76e92246baea14be
+Author: JMaverick16 <JMaverick16@users.noreply.github.com>
+Date:   Tue Aug 29 15:52:06 2017 +0200
+
+    Ze fucked fan
+
+commit e515911378fe54ed72641edaeeaf970f458499b3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 08:34:10 2017 -0400
+
+    MD-11: Automatically limit steering over 30kts
+
+commit 40623cea1ac684c765826d23124843dfba96ffdf
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 08:19:41 2017 -0400
+
+    MD-11: Improve CG/AERORP position, other minor fixing
+
+commit dced78750022f258821f8a022522ded2e5dc4732
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 29 07:58:35 2017 -0400
+
+    MD-11: Fix Fan Color
+
+commit c0241232c96428817540314784d9fc85a251aee4
+Author: JMaverick16 <JMaverick16@users.noreply.github.com>
+Date:   Tue Aug 29 12:38:39 2017 +0200
+
+    Brand new engine texture
+
+commit f71bec65764e96cae4a8cbbc200e55b731414637
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 22:47:06 2017 -0400
+
+    MD-11: Seperate Outer Spoilers, and Animate them
+
+commit 0733abf08cc2fb7b1c6a2898b658a0b041753d0e
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 19:19:55 2017 -0400
+
+    MD-11: Smooth Canvas EAD N1 decimal
+
+commit 8e996e5b4ff25057236fb26dd1a91f7f9511f2f6
+Author: Richard Harrison <rjh@zaretto.com>
+Date:   Tue Aug 29 01:10:49 2017 +0200
+
+    Move clipping logic back into the base init method and this time test it - the original version was using objects that didn't exist. oops. sorry. etc.
+
+commit b8736e8dabe9a4d8df4d748c71a17f3a28101907
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 18:54:44 2017 -0400
+
+    MD-11: Non working Canvas EAD Improvements
+    
+    Nasal runtime error: No such member: svg at line 44 of EAD.nas
+
+commit 5d39325121e83d8d6d6b82b3ee0f8f8240460de1
+Merge: a142ee1 ec76680
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 18:21:10 2017 -0400
+
+    Merge branch 'master' of 10.0.0.139:it0uchpods/MD-11Family
+
+commit a142ee105a51fbfdb49655735022950f9e22a7aa
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 18:21:03 2017 -0400
+
+    MD-11: initial fadec work, other AP related fixes
+
+commit ec766805b6b8c3faf37eb361f2250b50195e97b7
+Author: Richard Harrison <rjh@zaretto.com>
+Date:   Tue Aug 29 00:17:16 2017 +0200
+
+    Add clipping rectangle logic to EAD canvas
+
+commit deb42ce76c8af9291243e480cfef540415d581f3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 13:29:07 2017 -0400
+
+    MD-11: Add accurate APU, Remove non-working OH switches
+
+commit 8bf553915f6971405e50819bb0c613fa103cadea
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 12:38:07 2017 -0400
+
+    MD-11: Gear Lever working
+
+commit 604f01e284ce816254d160af39947165b46b03eb
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 12:27:12 2017 -0400
+
+    MD-11: Feedback LSAS to yokes
+
+commit d6bd43ff19a071dd20a69554dcba01db6131785b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 12:18:10 2017 -0400
+
+    MD-11: Improve Pitch Axis, Fix AFS Pitch, LSAS for new Elevator
+
+commit a69890c511f37442423f84cfaba67d3605b8231d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 11:03:08 2017 -0400
+
+    MD-11: Improve FF
+
+commit b282972d847b7034c21a56b8699655d4fde5b732
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 10:43:08 2017 -0400
+
+    MD-11: Fix AP Dialog issue
+
+commit 1f1dd69627d3167c7434987d8ae64a82297f9923
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 28 00:11:51 2017 -0400
+
+    MD-11: New Hydraulic Flight Controls, seperate Rudders, Elevators in 3D, fix alot of stuff
+
+commit c91b098f4510783671d8f2cde9e8c3df04fac1d9
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sun Aug 27 21:11:08 2017 -0400
+
+    MD-11: New Canvas EAD, New Hydraulic System, Overhead Improvements, more fixing
+
+commit 8ca11c7ecc4ae4f2417b599e8d6b591cdae7ef05
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Aug 26 22:23:54 2017 -0400
+
+    MD-11: Improve Pitch Control, LSAS, Autopilot, more things
+
+commit 31348f9034b9eebcac84500821935fae6c39305f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Aug 26 20:59:47 2017 -0400
+
+    MD-11: WIP Canvas
+
+commit 5e38b9db1092dacbfa96d349ddfa018ba4e3d046
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Aug 26 17:37:18 2017 -0400
+
+    MD-11: New stuff
+
+commit 426b3b4061dacc9f0dd063422b1a642a2846e121
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Aug 26 08:33:23 2017 -0400
+
+    MD-11: .gitignore
+
+commit 3cecd4a285a61215131c8671a68b7dd0b1b92f81
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Aug 26 08:27:19 2017 -0400
+
+    MD-11: Add reverse thrust system
+
+commit 3eeff39c0f38a4865c40860a48beae2ebbe31892
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Aug 26 08:10:59 2017 -0400
+
+    MD-11: Update ACCONFIG V1.4.5
+
+commit 14f11f353cc04bd73493dc386407f7cd58fecb71
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Sat Aug 26 07:20:18 2017 -0400
+
+    MD-11: Improve FDE Aero, FCS, LSAS, Views, and correct Overhead text color
+
+commit 38905a7d90475ef2149e46bca00115371dbebecf
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Aug 25 17:42:26 2017 -0400
+
+    MD-11: Delete VINDOW.ac
+
+commit 63aa4ff76ebe2bd38af1fd3edd373997061aa77f
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Aug 25 17:42:01 2017 -0400
+
+    MD-11: New MD-11F Model
+
+commit c5d00846923b7b4efe69c4454215a76e89710339
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Aug 25 17:09:57 2017 -0400
+
+    MD-11: LSAS, Improve MCD livery
+
+commit a1f51645ba9b92dc44c35cd06d2d43cdb7f52508
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Aug 25 15:36:54 2017 -0400
+
+    MD-11: FDM overhaul
+
+commit a31e2e6aac9f97a0a00c189ced8df5a4d21b58fd
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Aug 25 13:02:12 2017 -0400
+
+    MD-11: Words
+
+commit 18d068eeb85b35d0d963c29009176fd4c231ec71
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Fri Aug 25 13:00:59 2017 -0400
+
+    MD-11: Fix FDM, working again, and improve aero, fcs, etc
+
+commit c42bf7c0647492c23acdb6d395ba26d66e88ad83
+Merge: e80cb00 b4d4841
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Aug 24 23:00:07 2017 -0400
+
+    Merge branch 'master' of 10.0.0.139:it0uchpods/MD-11Family
+
+commit e80cb005c8c798119d737504f060a31df79805ce
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Thu Aug 24 22:59:59 2017 -0400
+
+    MD-11: NONWORKINGgit add .! FDM updates
+
+commit b4d4841b4dc9b4a8076d4f5fd5e99e59b90a743c
+Author: JMaverick16 <JMaverick16@users.noreply.github.com>
+Date:   Thu Aug 24 15:45:27 2017 +0200
+
+    Some minor texture improvements
+
+commit e6fb59f5197fbba7bd3cb8be6a0ef1626d8a70a1
+Author: JMaverick16 <JMaverick16@users.noreply.github.com>
+Date:   Thu Aug 24 11:07:11 2017 +0200
+
+    Add ze Walker, fixed stby-ai
+
+commit ffa17666a4a3743720c08a4bf1b5139795924554
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Wed Aug 16 16:56:58 2017 -0400
+
+    MD-11: Words
+
+commit 48c699d3dd88a00811b018b41d1d2283c061e04b
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 15 15:32:05 2017 -0400
+
+    I stupid
+
+commit 2737fdf40fc0aab09daa260ec431a863c0141de7
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 15 14:17:11 2017 -0400
+
+    MD-11: Fix path
+
+commit c9b9c4e39176f17888b9440f7bbfb731a118cc17
+Merge: 1c6b850 eb810a3
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 15 14:15:58 2017 -0400
+
+    Merge branch 'master' of 10.0.0.139:it0uchpods/MD-11Family
+
+commit 1c6b85023bf7d9273f45e5fb034e3297048e499d
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 15 14:15:47 2017 -0400
+
+    MD-11: Correct N1
+
+commit eb810a30e4134a75da5bba42978c9b9fd474f8d9
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Aug 15 18:04:58 2017 +0100
+
+    checklist
+
+commit e1886a10570e77f56bd65e25b758457d2d0cb793
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Tue Aug 15 08:42:04 2017 -0400
+
+    MD-11: Further adjust MilThrust
+
+commit ba6daee4b45720670bbada8888b89386f5ad49bf
+Author: Jonathan Redpath <legoboyvdlp@gmail.com>
+Date:   Tue Aug 15 10:50:51 2017 +0100
+
+    correct mil thrust
+
+commit 5547468374e59dbae9f5f30fa23cbf81dbe1e264
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 14 21:49:39 2017 -0400
+
+    MD-11: FDE, New Sounds and other improvements
+
+commit 465b3f00ef85e9f33683c3f6bb765fa4c9e97662
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 14 14:10:18 2017 -0400
+
+    MD-11: Remove stupid
+
+commit 672dbb349b7569334473ee8db46ecaec2bae1c67
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 14 14:07:26 2017 -0400
+
+    MD-11: Remove stupid
+
+commit 41a7a5f3b9e8d16b5f607ccc838977d369af2c31
+Author: Joshua Davidson <joshuadavidson2000@gmail.com>
+Date:   Mon Aug 14 14:00:30 2017 -0400
+
+    MD-11: Initial Git
